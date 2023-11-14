@@ -5,7 +5,6 @@ class FlightsPageSearchData:
     @staticmethod
     def get_test_data():
         datas = read_json.read_json("flights_search.json")
-
         arrs = []
         for data in datas.values():
             arrs.append((data.get("test_case_name"),

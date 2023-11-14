@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-"""home page configuration data"""
+"""HOME page configuration data"""
 home_url = "https://phptravels.net/"
 
 """FLIGHTS page configuration data for search"""
@@ -30,15 +30,51 @@ no_results_found = (By.CSS_SELECTOR, "img[alt='no results']")
 back_to_search = (By.PARTIAL_LINK_TEXT, "Back To Search")
 
 """FLIGHTS page configuration data for filter"""
+url_for_flights_fiter = "https://phptravels.net/flights/lhe/dxb/oneway/economy/30-11-2023/1/0/0"
 all_flights = (By.CSS_SELECTOR, "#all")
 direct = (By.CSS_SELECTOR, "#direct")
-stops1 = (By.PARTIAL_LINK_TEXT, "Stops 1")
-stops2 = (By.PARTIAL_LINK_TEXT, "Stops 2")
-# price_range_low = ???????
-# price_range_high = ?????
-oneway_airlines = (By.CSS_SELECTOR, "ul[class*='oneway']")
-return_airlines = (By.CSS_SELECTOR, "ul[class*='return']")
+stops1 = (By.CSS_SELECTOR, "input[value='.oneway_1']")
+stops2 = (By.CSS_SELECTOR, "input[value='.oneway_2']")
+flight_stops = (By.CSS_SELECTOR, "div[class*='text-end'] h6[class='mb-0'] strong")
+price_range_low = (By.CSS_SELECTOR, "span[class*='irs-from']")
+price_range_high = (By.CSS_SELECTOR, "span[class*='irs-to']")
+oneway_airlines = (By.CSS_SELECTOR, "label[for*='oneway']")
+return_airlines_exist= (By.PARTIAL_LINK_TEXT, "Return Airlines")
+return_airlines = (By.CSS_SELECTOR, "label[for*='return']")
 
+
+"""FLIGHTS page configuration data for booking"""
+url_for_flights_booking = "https://phptravels.net/flights/lhe/dxb/oneway/economy/30-11-2023/1/0/0"
+oneway_flights = (By.CSS_SELECTOR, "p[class='mb-1']")
+select_flight_btn = (By.CSS_SELECTOR, "button[class*='btn-dark']")
+
+"""Flights Booking page configuration data"""
+user_first_name = (By.CSS_SELECTOR, "input[name='user[first_name]']")
+user_last_name = (By.CSS_SELECTOR, "input[name='user[last_name]']")
+user_email = (By.CSS_SELECTOR, "input[name='user[email]']")
+user_phone = (By.CSS_SELECTOR, "input[name='user[phone]']")
+user_address = (By.CSS_SELECTOR, "input[name='user[address]']")
+user_nationality = (By.CSS_SELECTOR, "div[class*='nationality'] div[class='filter-option']")
+user_current_country = (By.CSS_SELECTOR, "div[class*='country'] div[class='filter-option']")
+traveller1_title = (By.CSS_SELECTOR, "select[name='title_1']")
+traveller1_firstname = (By.CSS_SELECTOR, "input[name='first_name_1']")
+traveller1_nationality = (By.CSS_SELECTOR, "select[name='nationality_1']")
+traveller1_dob_month = (By.CSS_SELECTOR, "select[name='dob_month_1']")
+traveller1_dob_day = (By.CSS_SELECTOR, "select[name='dob_day_1']")
+traveller1_dob_year = (By.CSS_SELECTOR, "select[name='dob_year_1']")
+traveller1_passport_no = (By.CSS_SELECTOR, "input[name='passport_1']")
+traveller1_passport_issuance_month = (By.CSS_SELECTOR, "select[name='passport_issuance_month_1']")
+traveller1_passport_issuance_day = (By.CSS_SELECTOR, "select[name='passport_issuance_day_1']")
+traveller1_passport_issuance_year = (By.CSS_SELECTOR, "select[name='passport_issuance_year_1']")
+traveller1_passport_expiry_month = (By.CSS_SELECTOR, "select[name='passport_month_expiry_1']")
+traveller1_passport_expiry_day = (By.CSS_SELECTOR, "select[name='passport_day_expiry_1']")
+traveller1_passport_expiry_year = (By.CSS_SELECTOR, "select[name='passport_year_expiry_1']")
+pay_paypal = (By.CSS_SELECTOR, "div[class*='paypal']")
+pay_bank_transfer = (By.CSS_SELECTOR, "div[class*='bank_transfer']")
+pay_later = (By.CSS_SELECTOR, "div[class*='pay_later']")
+pay_stripe = (By.CSS_SELECTOR, "div[class*='stripe']")
+agree_chb = (By.CSS_SELECTOR, "label[for='agreechb']")
+confirm_booking_btn = (By.CSS_SELECTOR, "div[class*='btn-box']")
 
 
 

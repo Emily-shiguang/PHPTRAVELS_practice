@@ -12,7 +12,7 @@ from selenium.webdriver.support.select import Select
 class BaseClass:
 
     def verify_element_presence(self, text):
-        WebDriverWait(self.driver, 10).until(ec.presence_of_element_located(By.PARTIAL_LINK_TEXT, text))
+        WebDriverWait(self.driver, 10).until(ec.presence_of_element_located((By.PARTIAL_LINK_TEXT, text)))
 
     def select_option_by_text(self, locator, text):
         sel = Select(locator)

@@ -10,6 +10,7 @@ class HomePage:
         self.driver = driver
 
     def get_flights_link(self):
+        self.driver.get(pages.home_url)
         element = WebDriverWait(self.driver,
                                 timeout=30,
                                 poll_frequency=0.5).until(lambda x: x.find_element(*pages.flights_link))

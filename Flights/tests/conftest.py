@@ -18,7 +18,6 @@ def setup(request):
     if browser_name == "chrome":
         service_obj = Service("/usr/local/bin/chromedriver")
         driver = webdriver.Chrome(service=service_obj)
-    driver.get(pages.home_url)
     driver.maximize_window()
     request.cls.driver = driver
     yield

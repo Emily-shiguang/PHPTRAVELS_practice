@@ -535,3 +535,528 @@
 2023-11-05 20:02:44,690 INFO [flights_search_002] | test_flights_search.py(test_flights_search:72) | - number of children is  0
 2023-11-05 20:02:44,902 INFO [flights_search_002] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
 2023-11-05 20:03:02,346 INFO [flights_search_002] | test_flights_search.py(test_flights_search:91) | - expected_result: No Results Found
+2023-11-07 11:50:22,802 INFO [flights_search_001] | test_flights_search.py(test_flights_search:28) | - Entering FLIGHTS page
+2023-11-07 11:50:22,976 INFO [flights_search_001] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-07 11:50:23,381 INFO [flights_search_001] | test_flights_search.py(test_flights_search:38) | - round trip is selected
+2023-11-07 11:50:26,651 INFO [flights_search_001] | test_flights_search.py(test_flights_search:44) | - flying from LHE
+2023-11-07 11:50:29,840 INFO [flights_search_001] | test_flights_search.py(test_flights_search:50) | - destination to DXB
+2023-11-07 11:50:30,037 INFO [flights_search_001] | test_flights_search.py(test_flights_search:54) | - depart date is  09-12-2023
+2023-11-07 11:50:30,226 INFO [flights_search_001] | test_flights_search.py(test_flights_search:58) | - return date is  30-12-2023
+2023-11-07 11:50:31,056 INFO [flights_search_001] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-07 11:50:31,285 INFO [flights_search_001] | test_flights_search.py(test_flights_search:72) | - number of children is  2
+2023-11-07 11:50:31,515 INFO [flights_search_001] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-07 11:50:59,513 INFO [flights_search_001] | test_flights_search.py(test_flights_search:87) | - expected_result:  243 Flights Found
+2023-11-07 11:51:04,062 INFO [flights_search_002] | test_flights_search.py(test_flights_search:28) | - Entering FLIGHTS page
+2023-11-07 11:51:04,652 INFO [flights_search_002] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-07 11:51:04,702 INFO [flights_search_002] | test_flights_search.py(test_flights_search:35) | - one way is selected
+2023-11-07 11:51:07,935 INFO [flights_search_002] | test_flights_search.py(test_flights_search:44) | - flying from NYC
+2023-11-07 11:51:11,117 INFO [flights_search_002] | test_flights_search.py(test_flights_search:50) | - destination to NEW
+2023-11-07 11:51:11,289 INFO [flights_search_002] | test_flights_search.py(test_flights_search:54) | - depart date is  23-11-2023
+2023-11-07 11:51:12,130 INFO [flights_search_002] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-07 11:51:12,345 INFO [flights_search_002] | test_flights_search.py(test_flights_search:72) | - number of children is  0
+2023-11-07 11:51:12,572 INFO [flights_search_002] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-07 11:51:34,110 INFO [flights_search_002] | test_flights_search.py(test_flights_search:91) | - expected_result: No Results Found
+2023-11-07 12:04:01,714 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-07 12:11:46,644 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:13:29,492 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:15:15,450 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:25:55,861 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:31:09,575 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:34:39,858 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:36:43,780 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:42:38,929 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:44:13,369 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 12:56:10,078 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:02:42,207 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:09:55,946 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:12:18,578 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:16:23,576 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:21:53,723 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 13:45:19,228 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 14:42:45,207 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 14:46:49,798 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 14:53:11,832 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 14:56:27,756 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 14:59:33,707 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 15:03:23,200 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 15:06:19,593 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:37:41,728 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:37:49,502 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Saudia
+Oman Air
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 19:45:51,921 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:45:59,678 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Saudia
+Oman Air
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 19:48:48,585 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:48:56,368 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Saudia
+Oman Air
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 19:56:12,367 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:56:20,143 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Saudia
+Oman Air
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 19:58:16,177 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 19:58:23,935 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Saudia
+Oman Air
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:37:39,109 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:37:46,907 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:43:30,967 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:43:38,857 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:45:48,761 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:45:56,536 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:47:36,262 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:47:44,054 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:75) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:49:40,420 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:49:48,197 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:76) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 20:55:24,226 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:56:52,277 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 20:57:00,039 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:79) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 21:06:55,277 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-07 21:11:38,548 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 21:11:46,328 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Pakistan International Airlines
+Kuwait Airways
+Oman Air
+Saudia
+Qatar Airways
+Azerbaijan Airlines
+Flynas
+Turkish Airlines
+2023-11-07 21:20:47,278 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 21:20:55,035 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,043 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,050 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,055 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,062 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,070 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,076 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:20:55,082 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - 
+2023-11-07 21:25:04,010 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:35) | - Flight Stops: Stops 1
+2023-11-07 21:25:11,772 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Pakistan International Airlines
+2023-11-07 21:25:11,779 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Kuwait Airways
+2023-11-07 21:25:11,787 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Oman Air
+2023-11-07 21:25:11,795 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Saudia
+2023-11-07 21:25:11,882 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:83) | - Saudia is selected
+2023-11-07 21:25:11,903 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Qatar Airways
+2023-11-07 21:25:11,916 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Azerbaijan Airlines
+2023-11-07 21:25:11,925 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Flynas
+2023-11-07 21:25:11,934 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:80) | - Turkish Airlines
+2023-11-09 14:42:43,280 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 14:42:47,155 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 14:42:47,162 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 14:42:47,169 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 14:42:47,176 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 14:42:47,182 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 14:42:47,270 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 14:42:47,278 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 14:42:47,287 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 14:42:47,295 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 14:42:47,392 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 14:42:49,416 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:91) | - Pakistan International Airlines
+2023-11-09 14:42:49,422 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:91) | - Kuwait Airways
+2023-11-09 14:42:49,429 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:91) | - Oman Air
+2023-11-09 14:42:49,436 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:91) | - Saudia
+2023-11-09 14:42:49,442 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:91) | - Qatar Airways
+2023-11-09 14:55:05,255 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 14:55:09,033 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 14:55:09,041 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 14:55:09,048 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 14:55:09,055 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 14:55:09,062 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 14:55:09,138 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 14:55:09,148 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 14:55:09,157 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 14:55:09,165 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 14:55:09,270 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 14:56:50,565 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 14:56:54,382 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 14:56:54,390 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 14:56:54,397 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 14:56:54,404 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 14:56:54,411 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 14:56:54,485 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 14:56:54,517 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 14:56:54,534 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 14:56:54,550 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 14:56:54,640 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 14:56:56,670 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:92) | - Pakistan International Airlines
+2023-11-09 14:56:56,682 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:92) | - Kuwait Airways
+2023-11-09 14:56:56,688 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:92) | - Oman Air
+2023-11-09 14:56:56,697 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:92) | - Saudia
+2023-11-09 14:56:56,704 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:92) | - Qatar Airways
+2023-11-09 14:58:07,738 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 14:58:11,509 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 14:58:11,516 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 14:58:11,523 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 14:58:11,530 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 14:58:11,540 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 14:58:11,617 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 14:58:11,624 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 14:58:11,631 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 14:58:11,644 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 14:58:11,744 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 14:58:15,775 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 14:58:15,782 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 14:58:15,789 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 14:58:15,797 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 14:58:15,804 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 14:58:15,879 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 14:58:15,891 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 14:58:15,898 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 14:58:15,908 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 14:58:16,019 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 14:59:14,731 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 14:59:18,557 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 14:59:18,564 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 14:59:18,572 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 14:59:18,579 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 14:59:18,587 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 14:59:18,659 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 14:59:18,668 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 14:59:18,674 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 14:59:18,681 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 14:59:18,772 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 14:59:22,804 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 14:59:22,811 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 14:59:22,818 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 14:59:22,825 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 14:59:22,832 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 14:59:22,903 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 14:59:22,911 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 14:59:22,923 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 14:59:22,934 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 14:59:23,035 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:00:13,373 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:00:17,195 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:00:17,203 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:00:17,210 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:00:17,218 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:00:17,225 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:00:17,300 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:00:17,309 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:00:17,316 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:00:17,323 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:00:17,412 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:00:21,446 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:00:21,453 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:00:21,460 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:00:21,467 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:00:21,474 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:00:21,555 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:00:21,566 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:00:21,598 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:00:21,610 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:00:21,709 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:01:18,238 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:01:22,008 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:01:22,016 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:01:22,023 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:01:22,030 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:01:22,038 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:01:22,130 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:01:22,141 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:01:22,159 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:01:22,168 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:01:22,257 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:01:26,294 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:01:26,302 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:01:26,309 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:01:26,318 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:01:26,324 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:01:26,400 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:01:26,409 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:01:26,420 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:01:26,427 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:01:26,550 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:02:24,971 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:02:28,731 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:02:28,739 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:02:28,747 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:02:28,753 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:02:28,761 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:02:28,856 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:02:28,867 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:02:28,885 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:02:28,894 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:02:28,982 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:02:33,020 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:02:33,028 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:02:33,035 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:02:33,042 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:02:33,049 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:02:33,115 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:02:33,148 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:02:33,172 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:02:33,213 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:02:33,287 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:03:22,314 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:03:26,106 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:03:26,114 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:03:26,121 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:03:26,129 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:03:26,136 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:03:26,213 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:03:26,223 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:03:26,233 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:03:26,244 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:03:26,342 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:03:30,377 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:03:30,385 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:03:30,392 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:03:30,400 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:03:30,408 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:03:30,480 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:03:30,493 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:03:30,503 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:03:30,511 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:03:30,612 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:04:20,310 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:04:24,071 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:04:24,078 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:04:24,085 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:04:24,092 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:04:24,099 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:04:24,175 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:04:24,182 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:04:24,189 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:04:24,200 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:04:24,305 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:04:28,336 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:04:28,342 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:04:28,349 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:04:28,356 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:04:28,363 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:04:28,434 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:04:28,445 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:04:28,452 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:04:28,459 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:04:28,556 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:05:18,248 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:05:22,100 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:05:22,108 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:05:22,114 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:05:22,121 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:05:22,128 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:05:22,203 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:05:22,211 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:05:22,219 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:05:22,227 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:05:22,321 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:05:26,354 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:05:26,361 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:05:26,368 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:05:26,374 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:05:26,381 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:05:26,451 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:05:26,459 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:05:26,467 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:05:26,475 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:05:26,576 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:06:31,148 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:06:34,959 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:06:34,967 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:06:34,974 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:06:34,980 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:06:34,987 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:06:35,062 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:06:35,071 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:06:35,078 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:06:35,085 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:06:35,180 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:06:39,212 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:06:39,220 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:06:39,227 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:06:39,234 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:06:39,241 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:06:39,312 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:06:39,324 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:06:39,332 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:06:39,342 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:06:39,434 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:08:09,708 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:08:13,522 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:08:13,529 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:08:13,536 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:08:13,544 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:08:13,551 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:08:13,627 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:08:13,636 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:08:13,643 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:08:13,649 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:08:13,755 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:08:17,789 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:08:17,797 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:08:17,804 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:08:17,811 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:08:17,819 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:08:17,889 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:08:17,898 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:08:17,908 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:08:17,916 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:08:18,015 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:09:02,235 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:09:06,059 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:09:06,065 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:09:06,072 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:09:06,079 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:09:06,086 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:09:06,163 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:09:06,172 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:09:06,182 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:09:06,189 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:09:06,297 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:09:10,331 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:09:10,338 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:09:10,345 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:09:10,352 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:09:10,359 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:09:10,432 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:09:10,441 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:09:10,455 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:09:10,466 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:09:10,566 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-09 15:10:26,046 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:36) | - Flight Stops: Stops 1
+2023-11-09 15:10:29,880 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Pakistan International Airlines
+2023-11-09 15:10:29,889 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Kuwait Airways
+2023-11-09 15:10:29,897 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Oman Air
+2023-11-09 15:10:29,903 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Saudia
+2023-11-09 15:10:29,910 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Qatar Airways
+2023-11-09 15:10:29,988 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:81) | - Qatar Airways is selected
+2023-11-09 15:10:29,996 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Azerbaijan Airlines
+2023-11-09 15:10:30,003 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Flynas
+2023-11-09 15:10:30,012 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:78) | - Turkish Airlines
+2023-11-09 15:10:30,134 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:84) | - Turkish Airlines is selected
+2023-11-09 15:10:34,167 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Pakistan International Airlines
+2023-11-09 15:10:34,174 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Kuwait Airways
+2023-11-09 15:10:34,180 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Oman Air
+2023-11-09 15:10:34,188 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Saudia
+2023-11-09 15:10:34,195 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Qatar Airways
+2023-11-09 15:10:34,284 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:96) | - Qatar Airways is selected
+2023-11-09 15:10:34,303 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Azerbaijan Airlines
+2023-11-09 15:10:34,313 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Flynas
+2023-11-09 15:10:34,322 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:93) | - Turkish Airlines
+2023-11-09 15:10:34,413 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:99) | - Turkish Airlines is selected
+2023-11-10 12:28:23,510 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 12:28:27,206 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:104) | - Pakistan International Airlines
+2023-11-10 12:29:51,760 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 12:29:55,469 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:104) | - Pakistan International Airlines
+2023-11-10 12:29:55,512 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:107) | - Pakistan International Airlines is selected
+2023-11-10 12:39:06,846 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 12:39:10,538 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:104) | - Pakistan International Airlines
+2023-11-10 12:39:10,578 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:107) | - Pakistan International Airlines is selected
+2023-11-10 12:43:05,834 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 12:43:09,543 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:104) | - Pakistan International Airlines
+2023-11-10 12:43:09,577 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:107) | - Pakistan International Airlines is selected
+2023-11-10 12:52:04,842 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-10 12:52:08,544 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:105) | - Pakistan International Airlines
+2023-11-10 12:52:08,578 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - Pakistan International Airlines is selected
+2023-11-10 12:55:26,066 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-10 12:55:29,782 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:105) | - Pakistan International Airlines
+2023-11-10 12:55:29,817 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - oneway airline Pakistan International Airlines is selected
+2023-11-10 12:55:33,831 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:125) | - Return Airlines do not exist
+2023-11-10 13:18:15,431 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-10 13:18:19,130 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:105) | - Pakistan International Airlines
+2023-11-10 13:18:19,171 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - oneway airline Pakistan International Airlines is selected
+2023-11-10 13:18:23,220 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:125) | - Return Airlines do not exist
+2023-11-10 13:26:15,994 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 13:27:47,298 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 13:27:51,028 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - Pakistan International Airlines
+2023-11-10 13:27:51,067 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:111) | - oneway airline Pakistan International Airlines is selected
+2023-11-10 13:27:55,113 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:128) | - Return Airlines do not exist
+2023-11-10 14:19:18,326 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-10 14:19:22,044 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - Pakistan International Airlines
+2023-11-10 14:19:22,085 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:111) | - oneway airline Pakistan International Airlines is selected
+2023-11-10 14:19:26,129 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:128) | - Return Airlines do not exist
+2023-11-13 19:42:01,428 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-13 19:42:05,133 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - Pakistan International Airlines
+2023-11-13 19:45:59,448 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-13 19:46:03,158 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:108) | - Pakistan International Airlines
+2023-11-13 19:47:55,522 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:31) | - Flight Stops: Direct
+2023-11-13 19:48:01,256 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:110) | - Pakistan International Airlines
+2023-11-13 19:48:01,292 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - oneway airline Pakistan International Airlines is selected
+2023-11-13 19:48:05,339 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:130) | - Return Airlines do not exist
+2023-11-13 20:27:18,707 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:31:12,690 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:31:12,730 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:33:51,691 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:34:43,200 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:34:43,227 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:36:33,770 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:36:33,797 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:37:59,258 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:37:59,286 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:40:09,195 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:40:09,223 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:41:22,667 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:41:22,690 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:21) | - Pakistan International Airlines - 6
+2023-11-13 20:43:23,287 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
+2023-11-13 20:43:25,323 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:23) | - Pakistan International Airlines - 6
+2023-11-13 20:43:27,148 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:28) | - Select Flight Pakistan International Airlines - 6

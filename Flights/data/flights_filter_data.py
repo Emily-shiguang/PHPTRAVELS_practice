@@ -1,23 +1,19 @@
 from Flights.tools import read_json
 
 
-class FlightsPageData:
+class FlightsPageFilterData:
     @staticmethod
     def get_test_data():
-        datas = read_json.read_json("flights_search.json")
-
+        datas = read_json.read_json("flights_filter.json")
         arrs = []
         for data in datas.values():
             arrs.append((data.get("test_case_name"),
-                         data.get("flights_type"),
-                         data.get("one_way"),
-                         data.get("round_trip"),
-                         data.get("flying_from"),
-                         data.get("destination_to"),
-                         data.get("depart_date"),
-                         data.get("return_date"),
-                         data.get("number_of_adults"),
-                         data.get("number_of_children"),
-                         data.get("number_of_infants"),
-                         data.get("expected_result")))
+                         data.get("all_flights"),
+                         data.get("direct"),
+                         data.get("stops1"),
+                         data.get("stops2"),
+                         data.get("price_range_low"),
+                         data.get("price_range_high"),
+                         data.get("oneway_airlines_selected"),
+                         data.get("return_airlines_selected")))
         return arrs

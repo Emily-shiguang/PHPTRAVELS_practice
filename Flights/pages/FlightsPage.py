@@ -88,3 +88,47 @@ class FlightsPage:
 
     def get_back_to_search(self):
         return self.driver.find_element(*pages.back_to_search)
+
+    def open_url_for_flights_filter(self):
+        self.driver.get(pages.url_for_flights_fiter)
+
+    def get_all_flights(self):
+        return self.driver.find_element(*pages.all_flights)
+
+    def get_direct(self):
+        return self.driver.find_element(*pages.direct)
+
+    def get_stops1(self):
+        return self.driver.find_element(*pages.stops1)
+
+    def get_stops2(self):
+        return self.driver.find_element(*pages.stops2)
+
+    def get_flight_stops(self):
+        return self.driver.find_elements(*pages.flight_stops)
+    def get_price_range_low(self):
+        return self.driver.find_element(*pages.price_range_low)
+
+    def get_price_range_high(self):
+        return self.driver.find_element(*pages.price_range_high)
+
+    def get_oneway_airlines(self):
+        return self.driver.find_elements(*pages.oneway_airlines)
+
+    def verify_element_exist(self):
+        try:
+            self.driver.find_element(*pages.return_airlines_exist)
+            return True
+        except:
+            return False
+    def get_return_airlines(self):
+        return self.driver.find_elements(*pages.return_airlines)
+
+    def open_url_for_flights_booking(self):
+        self.driver.get(pages.url_for_flights_booking)
+
+    def get_oneway_flights(self):
+        return self.driver.find_elements(*pages.oneway_flights)
+
+    def get_select_flight_btn(self):
+        return self.driver.find_element(*pages.select_flight_btn)
