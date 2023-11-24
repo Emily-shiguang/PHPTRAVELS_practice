@@ -20,8 +20,8 @@ class TestFlightsFilter(BaseClass):
         log = self.get_logger(test_case_name)
         flights_page = FlightsPage(self.driver)
         flights_page.open_url_for_flights_filter()
-        sleep(30)
-        log.info("Entering flights page for filter")
+        sleep(3)
+        log.info("Entered flights page for filter")
 
         # Flight Stops for filter
         if all_flights == "Y":
@@ -55,6 +55,7 @@ class TestFlightsFilter(BaseClass):
         # action.move_by_offset(30, 0)
         offsetx_low = int((int(price_range_low)-int(start_low_no_space))/6.45)
         action.move_by_offset(offsetx_low, 0)
+
         action.release()
         action.perform()
         sleep(1)
@@ -70,6 +71,7 @@ class TestFlightsFilter(BaseClass):
         # action.move_by_offset(-20, 0)
         offsetx_high = int((int(start_high_no_space) - int(price_range_high))/6.45)
         action.move_by_offset(-offsetx_high, 0)
+
         action.release()
         action.perform()
         sleep(1)
@@ -104,20 +106,20 @@ class TestFlightsFilter(BaseClass):
 
         # Select Oneway Airlines for filter
         self.driver.execute_script("window.scrollBy(0, 150);")
-        sleep(2)
+        sleep(1)
         oneway_airlines = flights_page.get_oneway_airlines()
         for oneway_airline in oneway_airlines:
             oneway_airline_name = oneway_airline.text
             log.info(oneway_airline_name)
             if oneway_airline_name in oneway_airlines_selected:
                 oneway_airline.click()
-                log.info("oneway airline " + oneway_airline_name + " is selected")
-        sleep(2)
+                log.info("oneway airline: " + oneway_airline_name + " is selected")
+        sleep(1)
 
         # Select Return Airlines for filter
-        self.driver.execute_script("window.scrollBy(0, 650);")
-        sleep(2)
         if flights_page.verify_element_exist():
+            self.driver.execute_script("window.scrollBy(0, 650);")
+            sleep(2)
             log.info("Return Airlines exist")
             return_airlines = flights_page.get_return_airlines()
             for return_airline in return_airlines:
@@ -125,7 +127,7 @@ class TestFlightsFilter(BaseClass):
                 log.info(return_airline_name)
                 if return_airline_name in return_airlines_selected:
                     return_airline.click()
-                    log.info("Return airline " + return_airline_name + " is selected")
+                    log.info("Return airline: " + return_airline_name + " is selected")
             sleep(2)
         else:
             log.info("Return Airlines do not exist")

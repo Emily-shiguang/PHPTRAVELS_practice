@@ -1060,3 +1060,1095 @@ Turkish Airlines
 2023-11-13 20:43:23,287 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:16) | - Entering flights page for booking
 2023-11-13 20:43:25,323 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:23) | - Pakistan International Airlines - 6
 2023-11-13 20:43:27,148 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:28) | - Select Flight Pakistan International Airlines - 6
+2023-11-14 14:42:37,468 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entering flights page for booking
+2023-11-14 14:42:39,515 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 14:57:55,977 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 14:57:58,034 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 14:58:03,192 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight Pakistan International Airlines - 6
+2023-11-16 14:58:03,192 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 14:58:08,197 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 14:58:08,374 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name Wang
+2023-11-16 14:58:08,441 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name Xiao
+2023-11-16 14:58:08,523 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email xiaowang@gmail.com
+2023-11-16 14:58:08,598 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone 61123456789
+2023-11-16 14:58:08,681 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address 95 xingfu rd, bx
+2023-11-16 14:58:09,657 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Nationality China
+2023-11-16 14:59:48,542 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 14:59:50,576 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 14:59:53,829 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight Pakistan International Airlines - 6
+2023-11-16 14:59:53,829 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 14:59:58,833 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 14:59:59,008 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name Wang
+2023-11-16 14:59:59,082 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name Xiao
+2023-11-16 14:59:59,168 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email xiaowang@gmail.com
+2023-11-16 14:59:59,243 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone 61123456789
+2023-11-16 14:59:59,326 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address 95 xingfu rd, bx
+2023-11-16 14:59:59,755 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Nationality China
+2023-11-16 15:00:00,065 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Current Country America
+2023-11-16 15:02:24,422 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 15:02:26,462 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 15:02:44,127 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight: Pakistan International Airlines - 6
+2023-11-16 15:02:44,127 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 15:02:49,128 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 15:02:49,231 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name: Wang
+2023-11-16 15:02:49,303 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name: Xiao
+2023-11-16 15:02:49,397 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email: xiaowang@gmail.com
+2023-11-16 15:02:49,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone: 61123456789
+2023-11-16 15:02:49,550 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address: 95 xingfu rd, bx
+2023-11-16 15:02:49,996 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Nationality: China
+2023-11-16 15:02:50,280 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Current Country: America
+2023-11-16 15:03:48,642 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 15:03:50,681 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 15:04:08,118 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight: Pakistan International Airlines - 6
+2023-11-16 15:04:08,118 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 15:04:10,122 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 15:04:10,279 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name: Wang
+2023-11-16 15:04:10,350 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name: Xiao
+2023-11-16 15:04:10,437 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email: xiaowang@gmail.com
+2023-11-16 15:04:10,513 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone: 61123456789
+2023-11-16 15:04:10,594 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address: 95 xingfu rd, bx
+2023-11-16 15:04:11,567 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Nationality: China
+2023-11-16 15:05:14,104 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 15:05:16,138 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 15:05:19,482 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight: Pakistan International Airlines - 6
+2023-11-16 15:05:19,483 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 15:05:21,488 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 15:05:21,654 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name: Wang
+2023-11-16 15:05:21,722 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name: Xiao
+2023-11-16 15:05:21,805 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email: xiaowang@gmail.com
+2023-11-16 15:05:21,877 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone: 61123456789
+2023-11-16 15:05:21,955 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address: 95 xingfu rd, bx
+2023-11-16 15:05:23,953 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:59) | - Nationality: China
+2023-11-16 15:05:24,263 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Current Country: America
+2023-11-16 15:08:36,188 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-16 15:08:38,228 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-16 15:08:43,251 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight: Pakistan International Airlines - 6
+2023-11-16 15:08:43,251 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-16 15:08:45,255 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-16 15:08:45,407 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name: Wang
+2023-11-16 15:08:45,475 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name: Xiao
+2023-11-16 15:08:45,564 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email: xiaowang@gmail.com
+2023-11-16 15:08:45,636 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone: 61123456789
+2023-11-16 15:08:45,717 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address: 95 xingfu rd, bx
+2023-11-16 15:08:47,177 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:59) | - Nationality: China
+2023-11-16 15:08:47,516 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Current Country: America
+2023-11-17 11:22:50,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:25) | - Entered flights page for booking
+2023-11-17 11:22:52,736 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:32) | - Pakistan International Airlines - 6
+2023-11-17 11:22:56,946 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:37) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 11:22:56,947 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:38) | - Entered flights booking page
+2023-11-17 11:22:58,950 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Filling in personal information
+2023-11-17 11:22:59,142 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - First Name: Wang
+2023-11-17 11:22:59,212 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:46) | - Last Name: Xiao
+2023-11-17 11:22:59,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Email: xiaowang@gmail.com
+2023-11-17 11:22:59,364 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:50) | - Phone: 61123456789
+2023-11-17 11:22:59,450 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:52) | - Address: 95 xingfu rd, bx
+2023-11-17 11:23:01,495 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:59) | - Nationality: China
+2023-11-17 11:23:02,323 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Current Country: America
+2023-11-17 12:22:34,948 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Entered flights page for booking
+2023-11-17 12:22:37,047 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 12:22:41,792 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:22:41,793 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 12:22:43,793 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Filling in personal information
+2023-11-17 12:22:43,968 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - First Name: Wang
+2023-11-17 12:22:44,050 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Last Name: Xiao
+2023-11-17 12:22:44,154 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:65) | - Email: xiaowang@gmail.com
+2023-11-17 12:22:44,234 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Phone: 61123456789
+2023-11-17 12:22:44,319 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Address: 95 xingfu rd, bx
+2023-11-17 12:22:45,304 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - Nationality: China
+2023-11-17 12:22:45,608 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Current Country: America
+2023-11-17 12:22:55,613 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Filling in travellers information
+2023-11-17 12:23:11,652 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Entered flights page for booking
+2023-11-17 12:23:41,282 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Entered flights page for booking
+2023-11-17 12:23:42,325 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 12:23:44,432 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:23:44,432 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 12:23:45,437 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Filling in personal information
+2023-11-17 12:23:45,632 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - First Name: Wang
+2023-11-17 12:23:45,707 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Last Name: Xiao
+2023-11-17 12:23:45,806 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:65) | - Email: xiaowang@gmail.com
+2023-11-17 12:23:45,887 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Phone: 61123456789
+2023-11-17 12:23:45,966 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Address: 95 xingfu rd, bx
+2023-11-17 12:23:46,361 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - Nationality: China
+2023-11-17 12:23:46,706 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Current Country: America
+2023-11-17 12:23:56,710 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Filling in travellers information
+2023-11-17 12:24:11,734 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Entered flights page for booking
+2023-11-17 12:24:12,769 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 12:24:14,937 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:24:14,938 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 12:24:15,942 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Filling in personal information
+2023-11-17 12:24:16,108 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - First Name: Wang
+2023-11-17 12:24:16,200 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Last Name: Xiao
+2023-11-17 12:24:16,291 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:65) | - Email: xiaowang@gmail.com
+2023-11-17 12:24:16,366 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Phone: 61123456789
+2023-11-17 12:24:16,445 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Address: 95 xingfu rd, bx
+2023-11-17 12:24:16,848 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - Nationality: China
+2023-11-17 12:24:17,216 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Current Country: America
+2023-11-17 12:24:27,220 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Filling in travellers information
+2023-11-17 12:24:40,253 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:41) | - Entered flights page for booking
+2023-11-17 12:24:41,297 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 12:24:44,463 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:24:44,463 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 12:24:45,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Filling in personal information
+2023-11-17 12:24:45,700 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - First Name: Wang
+2023-11-17 12:24:45,844 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:63) | - Last Name: Xiao
+2023-11-17 12:24:45,936 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:65) | - Email: xiaowang@gmail.com
+2023-11-17 12:24:46,014 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Phone: 61123456789
+2023-11-17 12:24:46,112 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Address: 95 xingfu rd, bx
+2023-11-17 12:24:46,545 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - Nationality: China
+2023-11-17 12:24:47,353 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Current Country: America
+2023-11-17 12:24:57,357 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Filling in travellers information
+2023-11-17 12:40:01,461 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:44) | - Entered flights page for booking
+2023-11-17 12:40:02,511 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:51) | - Pakistan International Airlines - 6
+2023-11-17 12:40:05,672 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:40:05,672 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:57) | - Entered flights booking page
+2023-11-17 12:40:06,677 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - Filling in personal information
+2023-11-17 12:40:06,843 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - First Name: Wang
+2023-11-17 12:40:06,919 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Last Name: Xiao
+2023-11-17 12:40:07,008 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Email: xiaowang@gmail.com
+2023-11-17 12:40:07,087 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Phone: 61123456789
+2023-11-17 12:40:07,166 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:72) | - Address: 95 xingfu rd, bx
+2023-11-17 12:40:08,150 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:77) | - Nationality: China
+2023-11-17 12:40:08,944 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Current Country: America
+2023-11-17 12:40:18,949 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Filling in travellers information
+2023-11-17 12:47:34,933 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 12:47:35,976 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:49) | - Pakistan International Airlines - 6
+2023-11-17 12:47:38,197 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:47:38,197 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:55) | - Entered flights booking page
+2023-11-17 12:47:39,202 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Filling in personal information
+2023-11-17 12:47:39,365 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - First Name: Wang
+2023-11-17 12:47:39,446 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Last Name: Xiao
+2023-11-17 12:47:39,538 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Email: xiaowang@gmail.com
+2023-11-17 12:47:39,620 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Phone: 61123456789
+2023-11-17 12:47:39,712 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Address: 95 xingfu rd, bx
+2023-11-17 12:47:40,153 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Nationality: China
+2023-11-17 12:47:40,444 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Current Country: America
+2023-11-17 12:47:42,448 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Filling in travellers information
+2023-11-17 12:47:42,507 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:86) | - Traveller1_title: Mr
+2023-11-17 12:47:42,601 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:88) | - Traveller1_firstname: Suo
+2023-11-17 12:47:42,667 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:90) | - Traveller1_lastname: Wang
+2023-11-17 12:47:42,736 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Traveller1_nationality: Australia
+2023-11-17 12:47:42,938 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:96) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 12:47:43,074 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:98) | - Traveller1_passport_no: 19911995
+2023-11-17 12:47:43,280 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 12:47:43,470 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_passport_issuance_date: 07 Jul 18 2025
+2023-11-17 12:49:26,432 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 12:49:27,474 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:49) | - Pakistan International Airlines - 6
+2023-11-17 12:49:29,752 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 12:49:29,752 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:55) | - Entered flights booking page
+2023-11-17 12:49:30,758 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Filling in personal information
+2023-11-17 12:49:30,910 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - First Name: Wang
+2023-11-17 12:49:30,988 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Last Name: Xiao
+2023-11-17 12:49:31,074 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Email: xiaowang@gmail.com
+2023-11-17 12:49:31,153 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Phone: 61123456789
+2023-11-17 12:49:31,236 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Address: 95 xingfu rd, bx
+2023-11-17 12:49:32,213 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Nationality: China
+2023-11-17 12:49:32,493 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Current Country: America
+2023-11-17 12:49:34,497 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Filling in travellers information
+2023-11-17 12:49:34,551 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:86) | - Traveller1_title: Mr
+2023-11-17 12:49:34,640 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:88) | - Traveller1_firstname: Suo
+2023-11-17 12:49:34,706 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:90) | - Traveller1_lastname: Wang
+2023-11-17 12:49:34,785 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Traveller1_nationality: Australia
+2023-11-17 12:49:34,986 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:96) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 12:49:35,130 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:98) | - Traveller1_passport_no: 19911995
+2023-11-17 12:49:35,349 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 12:49:35,606 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_passport_issuance_date: 07 Jul 18 2025
+2023-11-17 12:49:37,678 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 13:02:48,909 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:02:49,965 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:49) | - Pakistan International Airlines - 6
+2023-11-17 13:02:53,161 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:02:53,161 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:55) | - Entered flights booking page
+2023-11-17 13:02:54,165 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Filling in personal information
+2023-11-17 13:02:54,364 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - First Name: Wang
+2023-11-17 13:02:54,442 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Last Name: Xiao
+2023-11-17 13:02:54,529 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Email: xiaowang@gmail.com
+2023-11-17 13:02:54,605 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Phone: 61123456789
+2023-11-17 13:02:54,683 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Address: 95 xingfu rd, bx
+2023-11-17 13:02:55,099 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Nationality: China
+2023-11-17 13:02:55,488 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Current Country: America
+2023-11-17 13:02:57,492 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Filling in travellers information
+2023-11-17 13:03:00,551 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_title: Mr
+2023-11-17 13:03:00,632 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_firstname: Suo
+2023-11-17 13:03:00,701 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_lastname: Wang
+2023-11-17 13:03:00,776 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:93) | - Traveller1_nationality: Australia
+2023-11-17 13:03:00,971 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:03:01,071 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_passport_no: 19911995
+2023-11-17 13:03:01,267 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:03:01,452 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:115) | - Traveller1_passport_issuance_date: 07 Jul 18 2025
+2023-11-17 13:03:43,257 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:03:44,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:49) | - Pakistan International Airlines - 6
+2023-11-17 13:03:46,495 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:03:46,496 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:55) | - Entered flights booking page
+2023-11-17 13:03:47,501 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Filling in personal information
+2023-11-17 13:03:47,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - First Name: Wang
+2023-11-17 13:03:47,756 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Last Name: Xiao
+2023-11-17 13:03:47,844 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Email: xiaowang@gmail.com
+2023-11-17 13:03:47,923 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Phone: 61123456789
+2023-11-17 13:03:48,005 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Address: 95 xingfu rd, bx
+2023-11-17 13:03:48,916 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Nationality: China
+2023-11-17 13:03:49,249 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Current Country: America
+2023-11-17 13:03:51,254 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Filling in travellers information
+2023-11-17 13:03:54,307 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_title: Mr
+2023-11-17 13:03:54,389 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_firstname: Suo
+2023-11-17 13:03:54,456 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_lastname: Wang
+2023-11-17 13:03:54,525 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:93) | - Traveller1_nationality: Australia
+2023-11-17 13:03:54,779 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:03:54,901 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_passport_no: 19911995
+2023-11-17 13:03:55,115 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:03:55,333 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:115) | - Traveller1_passport_issuance_date: 07 Jul 18 2025
+2023-11-17 13:04:28,518 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:04:29,556 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:49) | - Pakistan International Airlines - 6
+2023-11-17 13:04:31,818 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:04:31,818 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:55) | - Entered flights booking page
+2023-11-17 13:04:32,823 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:58) | - Filling in personal information
+2023-11-17 13:04:32,981 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - First Name: Wang
+2023-11-17 13:04:33,055 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Last Name: Xiao
+2023-11-17 13:04:33,140 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Email: xiaowang@gmail.com
+2023-11-17 13:04:33,214 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Phone: 61123456789
+2023-11-17 13:04:33,297 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Address: 95 xingfu rd, bx
+2023-11-17 13:04:34,205 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Nationality: China
+2023-11-17 13:04:35,062 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Current Country: America
+2023-11-17 13:04:37,068 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Filling in travellers information
+2023-11-17 13:04:40,121 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_title: Mr
+2023-11-17 13:04:40,200 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_firstname: Suo
+2023-11-17 13:04:40,280 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_lastname: Wang
+2023-11-17 13:04:40,351 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:93) | - Traveller1_nationality: Australia
+2023-11-17 13:04:40,545 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:04:40,649 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_passport_no: 19911995
+2023-11-17 13:04:40,846 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:04:41,031 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:115) | - Traveller1_passport_issuance_date: 07 Jul 18 2025
+2023-11-17 13:07:35,884 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:07:35,914 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:07:38,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:07:38,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:07:38,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:07:38,263 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:07:38,348 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:07:38,439 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:07:38,526 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:07:38,609 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:07:39,016 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:07:39,376 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:07:41,381 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:07:43,434 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:07:43,517 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:07:43,591 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:07:43,660 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:07:43,858 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:07:43,954 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:07:44,146 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:07:44,341 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2025
+2023-11-17 13:07:48,428 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 13:08:16,684 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:08:16,717 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:08:19,263 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:08:19,264 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:08:19,264 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:08:19,391 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:08:19,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:08:19,557 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:08:19,626 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:08:19,702 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:08:20,078 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:08:20,537 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:08:22,543 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:08:24,596 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:08:24,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:08:24,748 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:08:24,817 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:08:25,012 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:08:25,105 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:08:25,294 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:08:25,485 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2025
+2023-11-17 13:08:29,564 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 13:10:51,848 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:10:51,879 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:10:54,225 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:10:54,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:10:54,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:10:54,382 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:10:54,461 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:10:54,556 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:10:54,640 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:10:54,728 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:10:55,661 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:10:55,996 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:10:58,001 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:11:00,047 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:11:00,129 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:11:00,198 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:11:00,268 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:11:00,473 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:11:00,614 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:11:00,827 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2015
+2023-11-17 13:11:01,033 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2025
+2023-11-17 13:11:05,113 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 13:11:35,626 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:11:35,659 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:11:37,950 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:11:37,950 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:11:37,950 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:11:38,137 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:11:38,216 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:11:38,309 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:11:38,389 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:11:38,472 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:11:39,382 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:11:39,723 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:11:41,727 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:11:43,780 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:11:43,864 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:11:43,938 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:11:44,005 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:11:44,198 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:11:44,287 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:11:44,482 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 13:11:44,698 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 13:11:48,781 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 13:12:07,757 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:12:07,789 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:12:10,038 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:12:10,038 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:12:10,038 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:12:10,207 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:12:10,285 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:12:10,369 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:12:10,444 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:12:10,528 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:12:10,946 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:12:11,303 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:12:13,307 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:12:15,354 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:12:15,441 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:12:15,507 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:12:15,581 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:12:15,774 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:12:15,931 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:12:16,121 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 13:12:16,336 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 13:12:20,420 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 13:15:21,342 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 13:15:21,372 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 13:15:23,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 13:15:23,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 13:15:23,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 13:15:23,833 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 13:15:23,911 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 13:15:24,002 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 13:15:24,075 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 13:15:24,157 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 13:15:24,553 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 13:15:24,899 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 13:15:26,903 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 13:15:28,953 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 13:15:29,038 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 13:15:29,110 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 13:15:29,178 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 13:15:29,371 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 13:15:29,461 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 13:15:29,661 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 13:15:29,878 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 13:15:33,946 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:128) | - Payment_method: pay_bank_transfer
+2023-11-17 14:11:31,200 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:11:31,245 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:11:35,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:11:35,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:11:35,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:11:35,471 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:11:35,559 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:11:35,656 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:11:35,736 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:11:35,817 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:11:36,728 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:11:37,598 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:11:39,603 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:11:41,656 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:11:41,737 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:11:41,808 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:11:41,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:11:42,073 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:11:42,166 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:11:42,359 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:11:42,612 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:11:46,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:12:45,047 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:12:45,082 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:12:49,070 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:12:49,070 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:12:49,071 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:12:49,246 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:12:49,333 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:12:49,442 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:12:49,541 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:12:49,628 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:12:50,033 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:12:50,400 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:12:52,404 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:12:54,457 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:12:54,545 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:12:54,621 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:12:54,693 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:12:54,890 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:12:54,989 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:12:55,190 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:12:55,415 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:12:59,486 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:14:48,322 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:14:48,354 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:14:51,023 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:14:51,023 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:14:51,023 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:14:51,187 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:14:51,278 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:14:51,388 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:14:51,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:14:51,559 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:14:52,482 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:14:53,342 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:14:55,346 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:14:57,394 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:14:57,472 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:14:57,541 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:14:57,612 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:14:57,803 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:14:57,893 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:14:58,087 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:14:58,298 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:15:02,367 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:15:43,239 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:15:43,268 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:15:45,968 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:15:45,968 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:15:45,968 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:15:46,117 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:15:46,206 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:15:46,300 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:15:46,376 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:15:46,466 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:15:46,865 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:15:47,230 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:15:49,235 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:15:51,286 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:15:51,371 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:15:51,444 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:15:51,518 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:15:51,749 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:15:51,879 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:15:52,081 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:15:52,350 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:15:56,417 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:16:21,933 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:16:21,963 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:16:26,310 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:16:26,310 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:16:26,310 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:16:26,486 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:16:26,572 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:16:26,686 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:16:26,779 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:16:26,871 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:16:27,272 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:16:27,614 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:16:29,618 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:16:31,666 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:16:31,747 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:16:31,812 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:16:31,880 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:16:32,078 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:16:32,170 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:16:32,359 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:16:32,574 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:16:36,640 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:17:22,522 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:17:22,553 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:17:26,534 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:17:26,535 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:17:26,535 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:17:26,704 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:17:26,792 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:17:26,891 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:17:26,975 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:17:27,061 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:17:27,977 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:17:28,837 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:17:30,841 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:17:32,893 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:17:32,973 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:17:33,047 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:17:33,116 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:17:33,311 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:17:33,409 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:17:33,604 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:17:33,834 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:17:37,899 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 14:19:01,265 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 14:19:01,298 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 14:19:04,796 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 14:19:04,796 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 14:19:04,796 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 14:19:04,973 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 14:19:05,064 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 14:19:05,163 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 14:19:05,247 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 14:19:05,330 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 14:19:06,243 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 14:19:06,588 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 14:19:08,593 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 14:19:10,644 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 14:19:10,728 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 14:19:10,800 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 14:19:10,871 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 14:19:11,063 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 14:19:11,166 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 14:19:11,374 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 14:19:11,587 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 14:19:15,652 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-17 15:59:10,885 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-17 15:59:10,936 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-17 15:59:13,563 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-17 15:59:13,564 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-17 15:59:13,564 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-17 15:59:13,785 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-17 15:59:13,872 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-17 15:59:13,985 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-17 15:59:14,086 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-17 15:59:14,193 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-17 15:59:15,231 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-17 15:59:15,686 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-17 15:59:17,689 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-17 15:59:19,770 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-17 15:59:19,871 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-17 15:59:19,954 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-17 15:59:20,056 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-17 15:59:20,348 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-17 15:59:20,471 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-17 15:59:20,719 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-17 15:59:21,023 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-17 15:59:25,102 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-23 13:02:29,660 INFO [flights_search_001] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 13:02:29,829 INFO [flights_search_001] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 13:02:30,229 INFO [flights_search_001] | test_flights_search.py(test_flights_search:35) | - one way is selected
+2023-11-23 13:02:33,528 INFO [flights_search_001] | test_flights_search.py(test_flights_search:44) | - flying from LHE
+2023-11-23 13:02:36,745 INFO [flights_search_001] | test_flights_search.py(test_flights_search:50) | - destination to DXB
+2023-11-23 13:02:36,926 INFO [flights_search_001] | test_flights_search.py(test_flights_search:54) | - depart date is  09-12-2023
+2023-11-23 13:02:37,763 INFO [flights_search_001] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 13:02:37,981 INFO [flights_search_001] | test_flights_search.py(test_flights_search:72) | - number of children is  2
+2023-11-23 13:02:38,199 INFO [flights_search_001] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 13:03:04,038 INFO [flights_search_001] | test_flights_search.py(test_flights_search:87) | - expected_result:  13 Flights Found
+2023-11-23 13:03:14,982 INFO [flights_search_002] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 13:03:15,108 INFO [flights_search_002] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 13:03:15,529 INFO [flights_search_002] | test_flights_search.py(test_flights_search:38) | - round trip is selected
+2023-11-23 13:03:18,765 INFO [flights_search_002] | test_flights_search.py(test_flights_search:44) | - flying from NYC
+2023-11-23 13:03:21,949 INFO [flights_search_002] | test_flights_search.py(test_flights_search:50) | - destination to NEW
+2023-11-23 13:03:22,121 INFO [flights_search_002] | test_flights_search.py(test_flights_search:54) | - depart date is  23-12-2023
+2023-11-23 13:03:22,303 INFO [flights_search_002] | test_flights_search.py(test_flights_search:58) | - return date is  30-01-2023
+2023-11-23 13:03:23,133 INFO [flights_search_002] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 13:03:23,384 INFO [flights_search_002] | test_flights_search.py(test_flights_search:72) | - number of children is  0
+2023-11-23 13:03:23,606 INFO [flights_search_002] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 13:03:44,404 INFO [flights_search_002] | test_flights_search.py(test_flights_search:91) | - expected_result: No Results Found
+2023-11-23 14:06:09,219 INFO [flights_search_002] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 14:06:09,428 INFO [flights_search_002] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 14:06:09,890 INFO [flights_search_002] | test_flights_search.py(test_flights_search:38) | - round trip is selected
+2023-11-23 14:06:12,274 INFO [flights_search_002] | test_flights_search.py(test_flights_search:44) | - flying from NYC
+2023-11-23 14:06:14,511 INFO [flights_search_002] | test_flights_search.py(test_flights_search:50) | - destination to NEW
+2023-11-23 14:06:14,740 INFO [flights_search_002] | test_flights_search.py(test_flights_search:54) | - depart date is  23-12-2023
+2023-11-23 14:06:14,974 INFO [flights_search_002] | test_flights_search.py(test_flights_search:58) | - return date is  30-01-2023
+2023-11-23 14:06:15,428 INFO [flights_search_002] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 14:06:15,713 INFO [flights_search_002] | test_flights_search.py(test_flights_search:72) | - number of children is  0
+2023-11-23 14:06:16,014 INFO [flights_search_002] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 14:06:36,379 INFO [flights_search_002] | test_flights_search.py(test_flights_search:91) | - expected_result: No Results Found
+2023-11-23 14:08:00,841 INFO [flights_search_001] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 14:08:00,926 INFO [flights_search_001] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 14:08:01,344 INFO [flights_search_001] | test_flights_search.py(test_flights_search:35) | - one way is selected
+2023-11-23 14:08:03,598 INFO [flights_search_001] | test_flights_search.py(test_flights_search:44) | - flying from LHE
+2023-11-23 14:08:05,793 INFO [flights_search_001] | test_flights_search.py(test_flights_search:50) | - destination to DXB
+2023-11-23 14:08:06,004 INFO [flights_search_001] | test_flights_search.py(test_flights_search:54) | - depart date is  09-12-2023
+2023-11-23 14:08:06,812 INFO [flights_search_001] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 14:08:07,016 INFO [flights_search_001] | test_flights_search.py(test_flights_search:72) | - number of children is  2
+2023-11-23 14:08:07,228 INFO [flights_search_001] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 14:11:47,714 INFO [flights_search_001] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 14:11:47,859 INFO [flights_search_001] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 14:11:48,297 INFO [flights_search_001] | test_flights_search.py(test_flights_search:35) | - one way is selected
+2023-11-23 14:11:50,567 INFO [flights_search_001] | test_flights_search.py(test_flights_search:44) | - flying from LHE
+2023-11-23 14:11:52,767 INFO [flights_search_001] | test_flights_search.py(test_flights_search:50) | - destination to DXB
+2023-11-23 14:11:52,905 INFO [flights_search_001] | test_flights_search.py(test_flights_search:54) | - depart date is  09-12-2023
+2023-11-23 14:11:53,291 INFO [flights_search_001] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 14:11:53,499 INFO [flights_search_001] | test_flights_search.py(test_flights_search:72) | - number of children is  2
+2023-11-23 14:11:53,752 INFO [flights_search_001] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 14:12:19,014 INFO [flights_search_001] | test_flights_search.py(test_flights_search:87) | - expected_result:  12 Flights Found
+2023-11-23 14:12:30,047 INFO [flights_search_002] | test_flights_search.py(test_flights_search:28) | - Entered FLIGHTS page
+2023-11-23 14:12:30,155 INFO [flights_search_002] | test_flights_search.py(test_flights_search:31) | - flights type selected is: Economy
+2023-11-23 14:12:30,586 INFO [flights_search_002] | test_flights_search.py(test_flights_search:38) | - round trip is selected
+2023-11-23 14:12:32,753 INFO [flights_search_002] | test_flights_search.py(test_flights_search:44) | - flying from NYC
+2023-11-23 14:12:34,889 INFO [flights_search_002] | test_flights_search.py(test_flights_search:50) | - destination to NEW
+2023-11-23 14:12:35,027 INFO [flights_search_002] | test_flights_search.py(test_flights_search:54) | - depart date is  23-12-2023
+2023-11-23 14:12:35,211 INFO [flights_search_002] | test_flights_search.py(test_flights_search:58) | - return date is  30-01-2023
+2023-11-23 14:12:35,598 INFO [flights_search_002] | test_flights_search.py(test_flights_search:66) | - number of adults is  2
+2023-11-23 14:12:35,824 INFO [flights_search_002] | test_flights_search.py(test_flights_search:72) | - number of children is  0
+2023-11-23 14:12:36,035 INFO [flights_search_002] | test_flights_search.py(test_flights_search:78) | - number of infants is  1
+2023-11-23 14:12:56,618 INFO [flights_search_002] | test_flights_search.py(test_flights_search:91) | - expected_result: No Results Found
+2023-11-23 14:17:50,352 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-23 14:17:50,529 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-23 14:17:50,952 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-23 14:17:53,284 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-23 14:17:55,504 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-23 14:17:55,733 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-23 14:17:56,210 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-23 14:17:56,510 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-23 14:17:56,842 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-23 14:18:15,622 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  12 Flights Found
+2023-11-23 14:18:28,924 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-23 14:18:29,030 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-23 14:18:29,464 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-23 14:18:31,740 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-23 14:18:33,968 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-23 14:18:34,196 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-23 14:18:34,440 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-23 14:18:34,919 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-23 14:18:35,234 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-23 14:18:35,532 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-23 14:18:48,751 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-23 14:24:48,551 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-23 14:24:48,696 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-23 14:24:49,120 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-23 14:24:51,367 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-23 14:24:53,580 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-23 14:24:53,763 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-23 14:24:54,565 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-23 14:24:54,785 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-23 14:24:54,990 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-23 14:29:30,057 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:29:30,190 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:39) | - Flight Stops: Stops 1
+2023-11-23 14:33:12,203 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:33:12,288 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:39) | - Flight Stops: Stops 1
+2023-11-23 14:33:17,991 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:111) | - Pakistan International Airlines
+2023-11-23 14:33:18,029 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:114) | - oneway airline: Pakistan International Airlines is selected
+2023-11-23 14:33:18,039 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:111) | - Qatar Airways
+2023-11-23 14:33:18,082 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:114) | - oneway airline: Qatar Airways is selected
+2023-11-23 14:33:18,091 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:111) | - Oman Air
+2023-11-23 14:33:22,132 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:131) | - Return Airlines do not exist
+2023-11-23 14:35:50,089 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:38:06,712 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:38:06,791 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:39) | - Flight Stops: Stops 1
+2023-11-23 14:38:12,510 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-23 14:38:12,545 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-23 14:38:12,555 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Qatar Airways
+2023-11-23 14:38:12,588 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Qatar Airways is selected
+2023-11-23 14:38:12,597 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Oman Air
+2023-11-23 14:38:14,631 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-23 14:40:26,175 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:40:26,336 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:39) | - Flight Stops: Stops 1
+2023-11-23 14:40:32,168 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-23 14:40:32,214 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-23 14:40:32,222 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Qatar Airways
+2023-11-23 14:40:32,273 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Qatar Airways is selected
+2023-11-23 14:40:32,281 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Oman Air
+2023-11-23 14:40:34,320 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-23 14:43:43,119 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:44:37,815 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:45:27,247 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-23 14:45:27,341 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:39) | - Flight Stops: Stops 1
+2023-11-23 14:45:33,081 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-23 14:45:33,140 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-23 14:45:33,154 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Qatar Airways
+2023-11-23 14:45:33,242 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Qatar Airways is selected
+2023-11-23 14:45:33,258 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Oman Air
+2023-11-23 14:45:35,296 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-23 14:48:26,155 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-23 14:48:26,191 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-23 14:48:30,599 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-23 14:48:30,599 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-23 14:48:30,599 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-23 14:48:30,785 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-23 14:48:30,890 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-23 14:48:31,011 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-23 14:48:31,113 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-23 14:48:31,228 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-23 14:48:31,728 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-23 14:48:32,198 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-23 14:48:34,204 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-23 14:48:36,256 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-23 14:48:36,318 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-23 14:48:36,408 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-23 14:48:36,513 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-23 14:48:36,784 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-23 14:48:36,881 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-23 14:48:37,162 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-23 14:48:37,415 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-23 14:48:41,520 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 13:35:02,651 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 13:35:02,692 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 13:35:06,066 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 13:35:06,066 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 13:35:06,066 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 13:35:06,244 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 13:35:06,332 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 13:35:06,423 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 13:35:06,509 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 13:35:06,599 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 13:35:07,015 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 13:35:07,376 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 13:35:09,379 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 13:35:11,427 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 13:35:11,506 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 13:35:11,575 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 13:35:11,649 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 13:35:11,848 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 13:35:11,976 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 13:35:12,211 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 13:35:12,555 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 13:35:16,623 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 13:52:48,988 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 13:53:45,889 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 13:54:34,428 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 13:55:01,493 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 13:55:01,526 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 13:55:03,709 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 13:55:03,709 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 13:55:03,709 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 13:55:03,874 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 13:55:03,956 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 13:55:04,043 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 13:55:04,121 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 13:55:04,200 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 13:55:04,587 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 13:55:04,922 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 13:55:06,924 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 13:55:08,980 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 13:55:09,061 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 13:55:09,133 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 13:55:09,203 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 13:55:09,385 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 13:55:09,473 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 13:55:09,662 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 13:55:09,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 13:55:13,952 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 13:56:08,799 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:00:06,592 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:00:06,642 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:00:10,295 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:00:10,296 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:00:10,296 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:00:10,414 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:00:10,485 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:00:10,583 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:00:10,655 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:00:10,734 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:00:11,115 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:00:11,505 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:00:13,510 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:00:15,568 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:00:15,636 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:00:15,718 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:00:15,924 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:00:16,409 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:00:16,518 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:00:16,722 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:00:16,922 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:00:20,986 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:01:13,679 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:01:25,289 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:01:25,853 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:01:25,894 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:01:28,118 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:01:30,278 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:01:30,452 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:01:31,277 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:01:31,480 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:01:31,681 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:01:42,924 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:01:48,951 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:01:49,507 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:01:49,548 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:01:51,742 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:01:53,917 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:01:54,073 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:01:54,215 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:01:55,023 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:01:55,222 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:01:55,424 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:02:05,442 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:08:16,380 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:08:16,429 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:08:20,076 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:08:20,076 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:08:20,077 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:08:20,237 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:08:20,327 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:08:20,426 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:08:20,508 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:08:20,594 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:08:20,984 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:08:21,842 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:08:23,845 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:08:25,900 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:08:25,979 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:08:26,042 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:08:26,114 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:08:26,319 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:08:26,441 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:08:26,659 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:08:26,892 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:08:30,991 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:09:31,576 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:09:31,640 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:09:37,377 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:09:37,413 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:09:39,448 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-24 14:09:49,465 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:09:50,034 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:09:50,075 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:09:52,292 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:09:54,468 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:09:54,636 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:09:54,943 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:09:55,171 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:09:55,364 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:10:07,063 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:10:11,322 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:10:11,876 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:10:11,929 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:10:14,143 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:10:16,315 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:10:16,462 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:10:16,595 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:10:17,377 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:10:17,556 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:10:17,739 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:10:30,210 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:12:06,536 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:12:06,573 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:12:07,111 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:12:07,111 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:12:07,112 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:12:09,134 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:12:09,222 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:12:09,329 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:12:09,430 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:12:09,531 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:12:10,020 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:12:10,982 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:12:12,986 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:12:15,156 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:12:15,239 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:12:15,316 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:12:15,408 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:12:15,692 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:12:15,805 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:12:16,044 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:12:16,326 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:12:20,389 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:13:13,380 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:13:13,442 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:13:19,167 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:13:19,200 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:13:21,231 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-24 14:13:31,683 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:13:31,752 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:13:32,107 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:13:34,379 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:13:36,579 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:13:36,792 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:13:37,270 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:13:37,520 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:13:37,770 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:13:48,769 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:13:53,784 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:13:54,386 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:13:54,447 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:13:56,663 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:13:58,873 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:13:59,065 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:13:59,248 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:13:59,666 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:13:59,927 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:14:00,179 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:14:11,201 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:21:45,831 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:21:45,878 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:21:48,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:21:48,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:21:48,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:21:48,393 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:21:48,477 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:21:48,574 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:21:48,656 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:21:48,742 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:21:49,664 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:21:49,953 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:21:51,957 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:21:54,030 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:21:54,112 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:21:54,314 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:21:54,401 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:21:54,602 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:21:54,752 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:21:54,946 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:21:55,178 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:21:59,254 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:22:51,329 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:22:51,393 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:22:57,132 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:22:57,170 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:22:59,202 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-24 14:23:09,104 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:23:09,171 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:23:09,597 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:23:11,777 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:23:13,979 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:23:14,154 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:23:14,524 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:23:14,758 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:23:14,964 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:23:26,379 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:23:30,979 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:23:31,087 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:23:31,464 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:23:33,673 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:23:35,897 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:23:36,050 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:23:36,196 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:23:36,536 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:23:36,731 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:23:36,945 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:23:46,983 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:26:54,570 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:26:54,620 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:26:56,845 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:26:56,845 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:26:56,845 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:26:57,026 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:26:57,117 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:26:57,220 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:26:57,309 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:26:57,397 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:26:58,315 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:26:59,199 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:27:01,201 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:27:03,251 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:27:03,332 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:27:03,402 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:27:03,471 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:27:03,675 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:27:03,805 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:27:04,007 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:27:04,222 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:27:08,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:27:22,796 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:27:22,861 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:27:33,327 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:27:33,400 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:27:33,785 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:27:36,038 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:27:38,211 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:27:38,393 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:27:39,195 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:27:39,404 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:27:39,627 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:27:47,166 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:27:52,979 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:27:53,562 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:27:53,607 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:27:55,812 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:27:57,990 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:27:58,158 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:27:58,316 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:27:59,102 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:27:59,313 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:27:59,514 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:28:05,929 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:32:04,370 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:32:04,488 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:32:06,862 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:32:06,863 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:32:06,863 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:32:07,051 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:32:07,132 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:32:07,229 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:32:07,309 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:32:07,394 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:32:08,313 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:32:08,677 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:32:10,681 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:32:12,734 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:32:12,814 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:32:12,885 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:32:12,956 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:32:13,150 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:32:13,293 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:32:13,505 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:32:13,733 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:32:17,797 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:32:46,600 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:32:46,664 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:32:51,388 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:32:51,424 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:32:52,458 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-24 14:33:02,049 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:33:02,617 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:33:02,660 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:33:04,910 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:33:07,080 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:33:07,261 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:33:08,070 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:33:08,305 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:33:08,510 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:33:15,549 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:33:20,304 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:33:20,881 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:33:20,923 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:33:23,113 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:33:25,292 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:33:25,590 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:33:25,740 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:33:26,518 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:33:26,708 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:33:26,912 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:33:35,054 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-24 14:37:28,428 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:37:28,491 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:37:30,875 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:37:30,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:37:30,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:37:31,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:37:31,184 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:37:31,294 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:37:31,404 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:37:31,511 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:37:32,638 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:37:33,515 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:37:35,519 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:37:37,598 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:37:37,713 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:37:37,806 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:37:37,932 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:37:38,261 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:37:38,391 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:37:38,850 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:37:39,400 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:37:43,491 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+2023-11-24 14:38:08,967 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:38:09,042 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:38:13,770 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:38:13,817 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:38:14,851 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+2023-11-24 14:38:25,231 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:38:25,304 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:38:25,720 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:38:28,049 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:38:30,283 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:38:30,514 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:38:31,004 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:38:31,319 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:38:31,588 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:38:38,565 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+2023-11-24 14:38:42,636 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:38:43,268 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:38:43,328 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:38:45,579 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:38:47,801 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:38:48,043 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:38:48,243 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:38:48,719 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:38:48,975 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:38:49,241 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:38:55,606 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found

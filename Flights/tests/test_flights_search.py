@@ -24,8 +24,9 @@ class TestFlightsSearch(BaseClass):
                             expected_result):
         log = self.get_logger(test_case_name)
         home_page = HomePage(self.driver)
+        sleep(1)
         flights_page = home_page.get_flights_link()
-        log.info("Entering FLIGHTS page")
+        log.info("Entered FLIGHTS page")
 
         self.select_option_by_text(flights_page.get_flights_type(), flights_type)
         log.info("flights type selected is: " + flights_type)
@@ -39,13 +40,13 @@ class TestFlightsSearch(BaseClass):
 
         flights_page.get_flying_from_span().click()
         flights_page.get_flying_from_city().send_keys(flying_from)
-        sleep(3)
+        sleep(2)
         flights_page.get_destination_to_city().send_keys(Keys.ENTER)
         log.info("flying from " + flying_from)
 
         flights_page.get_destination_to_span().click()
         flights_page.get_destination_to_city().send_keys(destination_to)
-        sleep(3)
+        sleep(2)
         flights_page.get_destination_to_city().send_keys(Keys.ENTER)
         log.info("destination to " + destination_to)
 
@@ -79,7 +80,7 @@ class TestFlightsSearch(BaseClass):
 
         flights_page.get_search_btn().click()
 
-        sleep(15)
+        sleep(5)
 
         if expected_result == "Flights Found":
             alert_text = flights_page.get_success_msg().text

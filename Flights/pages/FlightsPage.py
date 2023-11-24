@@ -106,6 +106,7 @@ class FlightsPage:
 
     def get_flight_stops(self):
         return self.driver.find_elements(*pages.flight_stops)
+
     def get_price_range_low(self):
         return self.driver.find_element(*pages.price_range_low)
 

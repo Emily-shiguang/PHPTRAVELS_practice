@@ -1,4 +1,26 @@
 {
   "flights_booking_001": {"test_case_name": "flights_booking_001",
-                         "oneway_flight_selected_for_booking": "Pakistan International Airlines - 6"}
+                         "oneway_flight_selected_for_booking": "Pakistan International Airlines - 6",
+                         "user_first_name": "Wang",
+                         "user_last_name": "Xiao",
+                         "user_email": "xiaowang@gmail.com",
+                         "user_phone": "61123456789",
+                         "user_address": "95 xingfu rd, bx",
+                         "user_nationality": "China",
+                         "user_current_country": "America",
+                         "traveller1_title": "Mr",
+                         "traveller1_firstname": "Suo",
+                         "traveller1_lastname": "Wang",
+                         "traveller1_nationality": "Australia",
+                         "traveller1_dob_month": "09 Sep",
+                         "traveller1_dob_day": "05",
+                         "traveller1_dob_year": "1982",
+                         "traveller1_passport_no": "19911995",
+                         "traveller1_passport_issuance_month": "07 Jul",
+                         "traveller1_passport_issuance_day": "19",
+                         "traveller1_passport_issuance_year": "2016",
+                         "traveller1_passport_expiry_month": "07 Jul",
+                         "traveller1_passport_expiry_day": "18",
+                         "traveller1_passport_expiry_year": "2026",
+                         "payment_method": "pay_bank_transfer"}
 }

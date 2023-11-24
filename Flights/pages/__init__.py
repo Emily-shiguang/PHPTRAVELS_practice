@@ -1,7 +1,8 @@
 from selenium.webdriver.common.by import By
 
 """HOME page configuration data"""
-home_url = "https://phptravels.net/"
+# home_url = "https://phptravels.net/"
+home_url = "https://phptravels.site/"
 
 """FLIGHTS page configuration data for search"""
 flights_link = (By.CSS_SELECTOR, "a[href*='flights']")
@@ -30,7 +31,7 @@ no_results_found = (By.CSS_SELECTOR, "img[alt='no results']")
 back_to_search = (By.PARTIAL_LINK_TEXT, "Back To Search")
 
 """FLIGHTS page configuration data for filter"""
-url_for_flights_fiter = "https://phptravels.net/flights/lhe/dxb/oneway/economy/30-11-2023/1/0/0"
+url_for_flights_fiter = "https://phptravels.site/flights/lhe/dxb/oneway/economy/09-12-2023/2/2/1"
 all_flights = (By.CSS_SELECTOR, "#all")
 direct = (By.CSS_SELECTOR, "#direct")
 stops1 = (By.CSS_SELECTOR, "input[value='.oneway_1']")
@@ -44,7 +45,7 @@ return_airlines = (By.CSS_SELECTOR, "label[for*='return']")
 
 
 """FLIGHTS page configuration data for booking"""
-url_for_flights_booking = "https://phptravels.net/flights/lhe/dxb/oneway/economy/30-11-2023/1/0/0"
+url_for_flights_booking = "https://phptravels.site/flights/lhe/dxb/oneway/economy/07-12-2023/1/0/0"
 oneway_flights = (By.CSS_SELECTOR, "p[class='mb-1']")
 select_flight_btn = (By.CSS_SELECTOR, "button[class*='btn-dark']")
 
@@ -55,9 +56,12 @@ user_email = (By.CSS_SELECTOR, "input[name='user[email]']")
 user_phone = (By.CSS_SELECTOR, "input[name='user[phone]']")
 user_address = (By.CSS_SELECTOR, "input[name='user[address]']")
 user_nationality = (By.CSS_SELECTOR, "div[class*='nationality'] div[class='filter-option']")
+user_nationality_search = (By.CSS_SELECTOR, "div[class*='nationality'] input[type='search']")
 user_current_country = (By.CSS_SELECTOR, "div[class*='country'] div[class='filter-option']")
+user_current_country_search = (By.CSS_SELECTOR, "div[class*='country'] input[type='search']")
 traveller1_title = (By.CSS_SELECTOR, "select[name='title_1']")
 traveller1_firstname = (By.CSS_SELECTOR, "input[name='first_name_1']")
+traveller1_lastname = (By.CSS_SELECTOR, "input[name='last_name_1']")
 traveller1_nationality = (By.CSS_SELECTOR, "select[name='nationality_1']")
 traveller1_dob_month = (By.CSS_SELECTOR, "select[name='dob_month_1']")
 traveller1_dob_day = (By.CSS_SELECTOR, "select[name='dob_day_1']")
@@ -73,8 +77,11 @@ pay_paypal = (By.CSS_SELECTOR, "div[class*='paypal']")
 pay_bank_transfer = (By.CSS_SELECTOR, "div[class*='bank_transfer']")
 pay_later = (By.CSS_SELECTOR, "div[class*='pay_later']")
 pay_stripe = (By.CSS_SELECTOR, "div[class*='stripe']")
-agree_chb = (By.CSS_SELECTOR, "label[for='agreechb']")
+agree_chb = (By.CSS_SELECTOR, "#agreechb")
+hide_btn = (By.CSS_SELECTOR, "#cookie_stop")
 confirm_booking_btn = (By.CSS_SELECTOR, "div[class*='btn-box']")
 
-
+"""Flights Booking confirm page configuration data"""
+url_for_flights_booking_confirm = "https://phptravels.site/flights/invoice/20231117031638"
+proceed_btn = (By.CSS_SELECTOR, "input[class*='btn-success']")
 

@@ -2,8 +2,6 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-from Flights import pages
-
 driver = None
 
 def pytest_addoption(parser):
@@ -26,7 +24,7 @@ def setup(request):
 # @pytest.mark.hookwrapper
 # def pytest_runtest_makereport(item):
 #     """
-#         Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+#         Extends the PyTest Plugin to take and embed screenshot in html report, whenever tests fails.
 #         :param item:
 #         """
 #     pytest_html = item.config.pluginmanager.getplugin('html')

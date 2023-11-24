@@ -14,6 +14,13 @@ class BaseClass:
     def verify_element_presence(self, text):
         WebDriverWait(self.driver, 10).until(ec.presence_of_element_located((By.PARTIAL_LINK_TEXT, text)))
 
+    def verify_element_exist(self, locator):
+        try:
+            self.driver.find_element(*locator)
+            return True
+        except:
+            return False
+
     def select_option_by_text(self, locator, text):
         sel = Select(locator)
         sel.select_by_visible_text(text)

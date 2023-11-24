@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>report01.html</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) { // eslint-disable-line no-redeclare
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function findAll(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sortColumn(elem) {
+    toggleSortStates(elem);
+    const colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    let key;
+    if (elem.classList.contains('result')) {
+        key = keyResult;
+    } else if (elem.classList.contains('links')) {
+        key = keyLink;
+    } else {
+        key = keyAlpha;
+    }
+    sortTable(elem, key(colIndex));
+}
+
+function showAllExtras() { // eslint-disable-line no-unused-vars
+    findAll('.col-result').forEach(showExtras);
+}
+
+function hideAllExtras() { // eslint-disable-line no-unused-vars
+    findAll('.col-result').forEach(hideExtras);
+}
+
+function showExtras(colresultElem) {
+    const extras = colresultElem.parentNode.nextElementSibling;
+    const expandcollapse = colresultElem.firstElementChild;
+    extras.classList.remove('collapsed');
+    expandcollapse.classList.remove('expander');
+    expandcollapse.classList.add('collapser');
+}
+
+function hideExtras(colresultElem) {
+    const extras = colresultElem.parentNode.nextElementSibling;
+    const expandcollapse = colresultElem.firstElementChild;
+    extras.classList.add('collapsed');
+    expandcollapse.classList.remove('collapser');
+    expandcollapse.classList.add('expander');
+}
+
+function showFilters() {
+    let visibleString = getQueryParameter('visible') || 'all';
+    visibleString = visibleString.toLowerCase();
+    const checkedItems = visibleString.split(',');
+
+    const filterItems = document.getElementsByClassName('filter');
+    for (let i = 0; i < filterItems.length; i++) {
+        filterItems[i].hidden = false;
+
+        if (visibleString != 'all') {
+            filterItems[i].checked = checkedItems.includes(filterItems[i].getAttribute('data-test-result'));
+            filterTable(filterItems[i]);
+        }
+    }
+}
+
+function addCollapse() {
+    // Add links for show/hide all
+    const resulttable = find('table#results-table');
+    const showhideall = document.createElement('p');
+    showhideall.innerHTML = '<a href="javascript:showAllExtras()">Show all details</a> / ' +
+                            '<a href="javascript:hideAllExtras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    findAll('.col-result').forEach(function(elem) {
+        const collapsed = getQueryParameter('collapsed') || 'Passed';
+        const extras = elem.parentNode.nextElementSibling;
+        const expandcollapse = document.createElement('span');
+        if (extras.classList.contains('collapsed')) {
+            expandcollapse.classList.add('expander');
+        } else if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add('collapsed');
+            expandcollapse.classList.add('expander');
+        } else {
+            expandcollapse.classList.add('collapser');
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener('click', function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains('collapsed')) {
+                showExtras(event.currentTarget);
+            } else {
+                hideExtras(event.currentTarget);
+            }
+        });
+    });
+}
+
+function getQueryParameter(name) {
+    const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () { // eslint-disable-line no-unused-vars
+    resetSortHeaders();
+
+    addCollapse();
+
+    showFilters();
+
+    sortColumn(find('.initial-sort'));
+
+    findAll('.sortable').forEach(function(elem) {
+        elem.addEventListener('click',
+            function() {
+                sortColumn(elem);
+            }, false);
+    });
+}
+
+function sortTable(clicked, keyFunc) {
+    const rows = findAll('.results-table-row');
+    const reversed = !clicked.classList.contains('asc');
+    const sortedRows = sort(rows, keyFunc, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    const thead = document.getElementById('results-table-head');
+    document.getElementById('results-table').remove();
+    const parent = document.createElement('table');
+    parent.id = 'results-table';
+    parent.appendChild(thead);
+    sortedRows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName('BODY')[0].appendChild(parent);
+}
+
+function sort(items, keyFunc, reversed) {
+    const sortArray = items.map(function(item, i) {
+        return [keyFunc(item), i];
+    });
+
+    sortArray.sort(function(a, b) {
+        const keyA = a[0];
+        const keyB = b[0];
+
+        if (keyA == keyB) return 0;
+
+        if (reversed) {
+            return keyA < keyB ? 1 : -1;
+        } else {
+            return keyA > keyB ? 1 : -1;
+        }
+    });
+
+    return sortArray.map(function(item) {
+        const index = item[1];
+        return items[index];
+    });
+}
+
+function keyAlpha(colIndex) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[colIndex].firstChild.data.toLowerCase();
+    };
+}
+
+function keyLink(colIndex) {
+    return function(elem) {
+        const dataCell = elem.childNodes[1].childNodes[colIndex].firstChild;
+        return dataCell == null ? '' : dataCell.innerText.toLowerCase();
+    };
+}
+
+function keyResult(colIndex) {
+    return function(elem) {
+        const strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+            'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[colIndex].firstChild.data);
+    };
+}
+
+function resetSortHeaders() {
+    findAll('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    findAll('.sortable').forEach(function(elem) {
+        const icon = document.createElement('div');
+        icon.className = 'sort-icon';
+        icon.textContent = 'vvv';
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove('desc', 'active');
+        elem.classList.add('asc', 'inactive');
+    });
+}
+
+function toggleSortStates(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        resetSortHeaders();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function isAllRowsHidden(value) {
+    return value.hidden == false;
+}
+
+function filterTable(elem) { // eslint-disable-line no-unused-vars
+    const outcomeAtt = 'data-test-result';
+    const outcome = elem.getAttribute(outcomeAtt);
+    const classOutcome = outcome + ' results-table-row';
+    const outcomeRows = document.getElementsByClassName(classOutcome);
+
+    for(let i = 0; i < outcomeRows.length; i++){
+        outcomeRows[i].hidden = !elem.checked;
+    }
+
+    const rows = findAll('.results-table-row').filter(isAllRowsHidden);
+    const allRowsHidden = rows.length == 0 ? true : false;
+    const notFoundMessage = document.getElementById('not-found-message');
+    notFoundMessage.hidden = !allRowsHidden;
+}
+</script>
+    <h1>report01.html</h1>
+    <p>Report generated on 24-Nov-2023 at 14:38:56 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <h2>Summary</h2>
+    <p>4 tests ran in 97.43 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable" col="duration">Duration</th>
+          <th class="sortable links" col="links">Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_flights_booking.py::TestFlightsBooking::test_flights_booking_0_flights_booking_001</td>
+          <td class="col-duration">40.89</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-11-24 14:37:28,428 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-24 14:37:28,491 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Pakistan International Airlines - 6
+2023-11-24 14:37:30,875 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:53) | - Select Flight: Pakistan International Airlines - 6
+2023-11-24 14:37:30,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:54) | - Entered flights booking page
+2023-11-24 14:37:30,876 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-24 14:37:31,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:60) | - First Name: Wang
+2023-11-24 14:37:31,184 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Last Name: Xiao
+2023-11-24 14:37:31,294 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Email: xiaowang@gmail.com
+2023-11-24 14:37:31,404 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Phone: 61123456789
+2023-11-24 14:37:31,511 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Address: 95 xingfu rd, bx
+2023-11-24 14:37:32,638 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Nationality: China
+2023-11-24 14:37:33,515 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Current Country: America
+2023-11-24 14:37:35,519 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Filling in travellers information
+2023-11-24 14:37:37,598 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Traveller1_title: Mr
+2023-11-24 14:37:37,713 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Traveller1_firstname: Suo
+2023-11-24 14:37:37,806 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Traveller1_lastname: Wang
+2023-11-24 14:37:37,932 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Traveller1_nationality: Australia
+2023-11-24 14:37:38,261 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Traveller1_DOB: 09 Sep 05 1982
+2023-11-24 14:37:38,391 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Traveller1_passport_no: 19911995
+2023-11-24 14:37:38,850 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-11-24 14:37:39,400 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:113) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-11-24 14:37:43,491 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:125) | - Payment_method: pay_bank_transfer
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     flights_booking_001:test_flights_booking.py:42 Entered flights page for booking
+INFO     flights_booking_001:test_flights_booking.py:48 Pakistan International Airlines - 6
+INFO     flights_booking_001:test_flights_booking.py:53 Select Flight: Pakistan International Airlines - 6
+INFO     flights_booking_001:test_flights_booking.py:54 Entered flights booking page
+INFO     flights_booking_001:test_flights_booking.py:56 Filling in personal information
+INFO     flights_booking_001:test_flights_booking.py:60 First Name: Wang
+INFO     flights_booking_001:test_flights_booking.py:62 Last Name: Xiao
+INFO     flights_booking_001:test_flights_booking.py:64 Email: xiaowang@gmail.com
+INFO     flights_booking_001:test_flights_booking.py:66 Phone: 61123456789
+INFO     flights_booking_001:test_flights_booking.py:68 Address: 95 xingfu rd, bx
+INFO     flights_booking_001:test_flights_booking.py:73 Nationality: China
+INFO     flights_booking_001:test_flights_booking.py:78 Current Country: America
+INFO     flights_booking_001:test_flights_booking.py:81 Filling in travellers information
+INFO     flights_booking_001:test_flights_booking.py:85 Traveller1_title: Mr
+INFO     flights_booking_001:test_flights_booking.py:87 Traveller1_firstname: Suo
+INFO     flights_booking_001:test_flights_booking.py:89 Traveller1_lastname: Wang
+INFO     flights_booking_001:test_flights_booking.py:91 Traveller1_nationality: Australia
+INFO     flights_booking_001:test_flights_booking.py:95 Traveller1_DOB: 09 Sep 05 1982
+INFO     flights_booking_001:test_flights_booking.py:97 Traveller1_passport_no: 19911995
+INFO     flights_booking_001:test_flights_booking.py:104 Traveller1_passport_issuance_date: 07 Jul 19 2016
+INFO     flights_booking_001:test_flights_booking.py:113 Traveller1_passport_expiry_date: 07 Jul 18 2026
+INFO     flights_booking_001:test_flights_booking.py:125 Payment_method: pay_bank_transfer<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_flights_filter.py::TestFlightsFilter::test_flights_filter_0_flights_filter_001</td>
+          <td class="col-duration">14.58</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-11-24 14:38:08,967 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-11-24 14:38:09,042 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-11-24 14:38:13,770 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:113) | - Pakistan International Airlines
+2023-11-24 14:38:13,817 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:116) | - oneway airline: Pakistan International Airlines is selected
+2023-11-24 14:38:14,851 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:133) | - Return Airlines do not exist
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     flights_filter_001:test_flights_filter.py:24 Entered flights page for filter
+INFO     flights_filter_001:test_flights_filter.py:32 Flight Stops: Direct
+INFO     flights_filter_001:test_flights_filter.py:113 Pakistan International Airlines
+INFO     flights_filter_001:test_flights_filter.py:116 oneway airline: Pakistan International Airlines is selected
+INFO     flights_filter_001:test_flights_filter.py:133 Return Airlines do not exist<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_flights_search.py::TestFlightsSearch::test_flights_search_0_flights_search_001</td>
+          <td class="col-duration">23.54</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-11-24 14:38:25,231 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:38:25,304 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-24 14:38:25,720 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-24 14:38:28,049 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-24 14:38:30,283 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-24 14:38:30,514 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-24 14:38:31,004 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:38:31,319 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-24 14:38:31,588 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:38:38,565 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  1 Flights Found
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     flights_search_001:test_flights_search.py:29 Entered FLIGHTS page
+INFO     flights_search_001:test_flights_search.py:32 flights type selected is: Economy
+INFO     flights_search_001:test_flights_search.py:36 one way is selected
+INFO     flights_search_001:test_flights_search.py:45 flying from LHE
+INFO     flights_search_001:test_flights_search.py:51 destination to DXB
+INFO     flights_search_001:test_flights_search.py:55 depart date is  09-12-2023
+INFO     flights_search_001:test_flights_search.py:67 number of adults is  2
+INFO     flights_search_001:test_flights_search.py:73 number of children is  2
+INFO     flights_search_001:test_flights_search.py:79 number of infants is  1
+INFO     flights_search_001:test_flights_search.py:88 expected_result:  1 Flights Found<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_flights_search.py::TestFlightsSearch::test_flights_search_1_flights_search_002</td>
+          <td class="col-duration">18.30</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-11-24 14:38:42,636 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-24 14:38:43,268 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-24 14:38:43,328 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-24 14:38:45,579 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-24 14:38:47,801 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-24 14:38:48,043 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-24 14:38:48,243 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-24 14:38:48,719 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-24 14:38:48,975 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-24 14:38:49,241 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-24 14:38:55,606 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     flights_search_002:test_flights_search.py:29 Entered FLIGHTS page
+INFO     flights_search_002:test_flights_search.py:32 flights type selected is: Business
+INFO     flights_search_002:test_flights_search.py:39 round trip is selected
+INFO     flights_search_002:test_flights_search.py:45 flying from NYC
+INFO     flights_search_002:test_flights_search.py:51 destination to NEW
+INFO     flights_search_002:test_flights_search.py:55 depart date is  23-12-2023
+INFO     flights_search_002:test_flights_search.py:59 return date is  30-01-2023
+INFO     flights_search_002:test_flights_search.py:67 number of adults is  2
+INFO     flights_search_002:test_flights_search.py:73 number of children is  0
+INFO     flights_search_002:test_flights_search.py:79 number of infants is  1
+INFO     flights_search_002:test_flights_search.py:92 expected_result: No Results Found<br/></div></td></tr></tbody></table></body></html>
