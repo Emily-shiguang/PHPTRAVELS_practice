@@ -1,6 +1,6 @@
 {
   "flights_booking_001": {"test_case_name": "flights_booking_001",
-                         "oneway_flight_selected_for_booking": "Pakistan International Airlines - 6",
+                         "oneway_flight_selected_for_booking": "SriLankan Airlines - 32A",
                          "user_first_name": "Wang",
                          "user_last_name": "Xiao",
                          "user_email": "xiaowang@gmail.com",
@@ -22,5 +22,5 @@
                          "traveller1_passport_expiry_month": "07 Jul",
                          "traveller1_passport_expiry_day": "18",
                          "traveller1_passport_expiry_year": "2026",
-                         "payment_method": "pay_bank_transfer"}
+                         "payment_method": "pay_stripe"}
 }

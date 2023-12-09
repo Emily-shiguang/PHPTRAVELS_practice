@@ -1,11 +1,11 @@
 {
   "flights_filter_001": {"test_case_name": "flights_filter_001",
                          "all_flights": "N",
-                         "direct": "Y",
-                         "stops1": "N",
+                         "direct": "N",
+                         "stops1": "Y",
                          "stops2": "N",
-                         "price_range_low": "100",
-                         "price_range_high": "100",
-                         "oneway_airlines_selected" : ["Pakistan International Airlines", "Qatar Airways"],
-                         "return_airlines_selected" : ["Pakistan International Airlines", "Qatar Airways"]}
+                         "price_range_low": "600",
+                         "price_range_high": "1800",
+                         "oneway_airlines_selected" : ["Oman Air", "Qatar Airways"],
+                         "return_airlines_selected" : ["Oman Air", "Qatar Airways"]}
 }

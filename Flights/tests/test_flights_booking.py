@@ -41,17 +41,40 @@ class TestFlightsBooking(BaseClass):
         sleep(2)
         log.info("Entered flights page for booking")
 
-        self.driver.execute_script("window.scrollBy(0, 150);")
-        oneway_flights = FlightsPage.get_oneway_flights(self)
-        for oneway_flight in oneway_flights:
-            oneway_flight_name = oneway_flight.text
+        # self.driver.execute_script("window.scrollBy(0, 150);")
+        # oneway_flights = FlightsPage.get_oneway_flights(self)
+        # for oneway_flight in oneway_flights:
+        #     oneway_flight_name = oneway_flight.text
+        #     log.info(oneway_flight_name)
+        #     # print("oneway_flight_name " + oneway_flight_name)
+        #     # print(oneway_flight_selected_for_booking)
+        #     if oneway_flight_name == oneway_flight_selected_for_booking:
+        #         print("XXXXXX")
+        #         FlightsPage.get_select_flight_btn(self).click()
+        #         log.info("Select Flight: " + oneway_flight_name)
+        #         log.info("Entered flights booking page")
+
+        self.driver.execute_script("window.scrollBy(0, 120);")
+        sleep(1)
+        flight_list = FlightsPage.get_flight_list(self)
+        for oneway_flight in flight_list:
+            self.driver.execute_script("window.scrollBy(0, 120);")
+            sleep(1)
+            oneway_flight_name = oneway_flight.find_element(By.CSS_SELECTOR, "p[class='mb-1']").text
             log.info(oneway_flight_name)
             # print("oneway_flight_name " + oneway_flight_name)
             # print(oneway_flight_selected_for_booking)
             if oneway_flight_name == oneway_flight_selected_for_booking:
-                FlightsPage.get_select_flight_btn(self).click()
+                oneway_flight.find_element(By.CSS_SELECTOR, "button[onclick*='moreDetail']").click()
+                sleep(1)
+                self.driver.execute_script("window.scrollBy(0, 120);")
+                sleep(1)
+                self.driver.execute_script("window.scrollBy(0, -120);")
+                sleep(1)
+                oneway_flight.find_element(By.CSS_SELECTOR,"button[type='submit']").click()
                 log.info("Select Flight: " + oneway_flight_name)
                 log.info("Entered flights booking page")
+                break
 
         log.info("Filling in personal information")
         self.driver.execute_script("window.scrollBy(0, 90);")

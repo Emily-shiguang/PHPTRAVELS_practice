@@ -2152,3 +2152,484 @@ Turkish Airlines
 2023-11-24 14:38:48,975 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
 2023-11-24 14:38:49,241 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
 2023-11-24 14:38:55,606 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-11-27 13:52:25,764 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-11-27 13:52:25,816 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-11-27 13:52:25,823 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-11-27 13:52:25,829 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-11-27 13:52:25,838 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-11-27 13:52:25,844 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-11-27 13:52:25,852 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-11-27 13:52:25,858 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-11-27 13:52:25,866 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-11-27 13:52:25,872 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-11-27 13:52:25,878 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-11-27 13:52:25,885 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-11-27 13:52:25,892 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-11-27 13:52:25,900 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-11-27 13:52:25,906 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-11-27 13:52:25,915 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-11-27 13:52:25,915 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-11-27 13:53:34,862 INFO [flights_search_001] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-27 13:53:34,917 INFO [flights_search_001] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Economy
+2023-11-27 13:53:35,346 INFO [flights_search_001] | test_flights_search.py(test_flights_search:36) | - one way is selected
+2023-11-27 13:53:37,598 INFO [flights_search_001] | test_flights_search.py(test_flights_search:45) | - flying from LHE
+2023-11-27 13:53:39,787 INFO [flights_search_001] | test_flights_search.py(test_flights_search:51) | - destination to DXB
+2023-11-27 13:53:39,963 INFO [flights_search_001] | test_flights_search.py(test_flights_search:55) | - depart date is  09-12-2023
+2023-11-27 13:53:40,768 INFO [flights_search_001] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-27 13:53:40,968 INFO [flights_search_001] | test_flights_search.py(test_flights_search:73) | - number of children is  2
+2023-11-27 13:53:41,192 INFO [flights_search_001] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-27 13:54:01,127 INFO [flights_search_001] | test_flights_search.py(test_flights_search:88) | - expected_result:  11 Flights Found
+2023-11-27 13:54:31,835 INFO [flights_search_002] | test_flights_search.py(test_flights_search:29) | - Entered FLIGHTS page
+2023-11-27 13:54:31,928 INFO [flights_search_002] | test_flights_search.py(test_flights_search:32) | - flights type selected is: Business
+2023-11-27 13:54:32,309 INFO [flights_search_002] | test_flights_search.py(test_flights_search:39) | - round trip is selected
+2023-11-27 13:54:34,457 INFO [flights_search_002] | test_flights_search.py(test_flights_search:45) | - flying from NYC
+2023-11-27 13:54:36,596 INFO [flights_search_002] | test_flights_search.py(test_flights_search:51) | - destination to NEW
+2023-11-27 13:54:36,719 INFO [flights_search_002] | test_flights_search.py(test_flights_search:55) | - depart date is  23-12-2023
+2023-11-27 13:54:36,855 INFO [flights_search_002] | test_flights_search.py(test_flights_search:59) | - return date is  30-01-2023
+2023-11-27 13:54:37,590 INFO [flights_search_002] | test_flights_search.py(test_flights_search:67) | - number of adults is  2
+2023-11-27 13:54:37,736 INFO [flights_search_002] | test_flights_search.py(test_flights_search:73) | - number of children is  0
+2023-11-27 13:54:37,886 INFO [flights_search_002] | test_flights_search.py(test_flights_search:79) | - number of infants is  1
+2023-11-27 13:54:54,632 INFO [flights_search_002] | test_flights_search.py(test_flights_search:92) | - expected_result: No Results Found
+2023-12-04 14:13:00,575 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:13:00,616 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:13:00,623 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:00,633 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:00,639 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:00,650 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:00,656 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:00,666 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:00,672 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:00,680 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:00,686 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:00,696 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 788
+2023-12-04 14:13:00,702 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:00,718 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:00,726 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:00,733 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:00,739 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:13:00,739 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-12-04 14:13:57,070 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:13:57,106 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:13:57,117 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:57,128 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:57,147 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:57,157 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:57,168 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:57,176 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:57,190 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:57,208 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 738
+2023-12-04 14:13:57,222 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Qatar Airways - 788
+2023-12-04 14:13:57,230 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Oman Air - 788
+2023-12-04 14:13:57,248 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:57,257 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:57,264 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:57,274 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - Saudi Arabian Airlines - 777
+2023-12-04 14:13:57,286 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:13:57,286 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:56) | - Filling in personal information
+2023-12-04 14:14:50,312 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:14:50,345 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:38:33,677 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:38:33,716 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:48) | - SriLankan Airlines - 333
+2023-12-04 14:50:38,553 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:51:47,046 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 14:53:17,836 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:01:20,438 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:03:06,698 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:03:06,741 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 333
+2023-12-04 15:03:16,196 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Select Flight: SriLankan Airlines - 333
+2023-12-04 15:03:16,196 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:68) | - Entered flights booking page
+2023-12-04 15:06:50,654 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:06:50,698 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 333
+2023-12-04 15:07:00,688 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Select Flight: SriLankan Airlines - 333
+2023-12-04 15:07:00,689 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Entered flights booking page
+2023-12-04 15:07:00,689 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-04 15:07:00,894 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - First Name: Wang
+2023-12-04 15:07:00,964 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:76) | - Last Name: Xiao
+2023-12-04 15:07:01,061 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Email: xiaowang@gmail.com
+2023-12-04 15:07:01,135 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Phone: 61123456789
+2023-12-04 15:07:01,215 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Address: 95 xingfu rd, bx
+2023-12-04 15:07:01,681 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Nationality: China
+2023-12-04 15:07:01,983 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Current Country: America
+2023-12-04 15:07:03,987 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Filling in travellers information
+2023-12-04 15:07:06,045 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_title: Mr
+2023-12-04 15:07:06,129 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:101) | - Traveller1_firstname: Suo
+2023-12-04 15:07:06,190 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:103) | - Traveller1_lastname: Wang
+2023-12-04 15:07:06,266 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_nationality: Australia
+2023-12-04 15:07:06,457 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:109) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-04 15:07:06,553 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:111) | - Traveller1_passport_no: 19911995
+2023-12-04 15:07:06,765 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:118) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-04 15:07:06,992 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:127) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-04 15:07:11,062 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:139) | - Payment_method: pay_bank_transfer
+2023-12-04 15:07:47,693 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:07:47,741 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 333
+2023-12-04 15:07:55,706 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Select Flight: SriLankan Airlines - 333
+2023-12-04 15:07:55,706 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Entered flights booking page
+2023-12-04 15:07:55,707 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-04 15:07:55,896 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - First Name: Wang
+2023-12-04 15:07:55,966 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:76) | - Last Name: Xiao
+2023-12-04 15:07:56,062 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Email: xiaowang@gmail.com
+2023-12-04 15:07:56,145 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Phone: 61123456789
+2023-12-04 15:07:56,226 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Address: 95 xingfu rd, bx
+2023-12-04 15:07:57,178 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Nationality: China
+2023-12-04 15:07:57,505 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Current Country: America
+2023-12-04 15:07:59,509 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Filling in travellers information
+2023-12-04 15:08:01,562 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_title: Mr
+2023-12-04 15:08:01,665 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:101) | - Traveller1_firstname: Suo
+2023-12-04 15:08:01,731 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:103) | - Traveller1_lastname: Wang
+2023-12-04 15:08:01,805 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_nationality: Australia
+2023-12-04 15:08:01,994 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:109) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-04 15:08:02,087 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:111) | - Traveller1_passport_no: 19911995
+2023-12-04 15:08:02,280 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:118) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-04 15:08:02,499 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:127) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-04 15:08:06,567 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:139) | - Payment_method: pay_bank_transfer
+2023-12-04 15:11:21,483 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:11:21,531 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 333
+2023-12-04 15:11:27,725 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Select Flight: SriLankan Airlines - 333
+2023-12-04 15:11:27,726 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Entered flights booking page
+2023-12-04 15:11:27,726 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-04 15:11:27,963 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - First Name: Wang
+2023-12-04 15:11:28,047 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:76) | - Last Name: Xiao
+2023-12-04 15:11:28,168 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Email: xiaowang@gmail.com
+2023-12-04 15:11:28,272 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Phone: 61123456789
+2023-12-04 15:11:28,383 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Address: 95 xingfu rd, bx
+2023-12-04 15:11:29,429 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Nationality: China
+2023-12-04 15:11:29,815 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Current Country: America
+2023-12-04 15:11:31,816 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Filling in travellers information
+2023-12-04 15:11:33,868 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_title: Mr
+2023-12-04 15:11:33,959 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:101) | - Traveller1_firstname: Suo
+2023-12-04 15:11:34,028 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:103) | - Traveller1_lastname: Wang
+2023-12-04 15:11:34,103 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_nationality: Australia
+2023-12-04 15:11:34,318 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:109) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-04 15:11:34,459 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:111) | - Traveller1_passport_no: 19911995
+2023-12-04 15:11:34,676 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:118) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-04 15:11:34,915 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:127) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-04 15:11:38,989 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:139) | - Payment_method: pay_bank_transfer
+2023-12-04 15:13:07,117 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-04 15:13:07,162 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 333
+2023-12-04 15:13:12,037 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:66) | - Select Flight: SriLankan Airlines - 333
+2023-12-04 15:13:12,037 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:67) | - Entered flights booking page
+2023-12-04 15:13:12,037 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-04 15:13:12,199 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:74) | - First Name: Wang
+2023-12-04 15:13:12,272 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:76) | - Last Name: Xiao
+2023-12-04 15:13:12,357 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:78) | - Email: xiaowang@gmail.com
+2023-12-04 15:13:12,439 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:80) | - Phone: 61123456789
+2023-12-04 15:13:12,532 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:82) | - Address: 95 xingfu rd, bx
+2023-12-04 15:13:13,516 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Nationality: China
+2023-12-04 15:13:14,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Current Country: America
+2023-12-04 15:13:16,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Filling in travellers information
+2023-12-04 15:13:18,519 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:99) | - Traveller1_title: Mr
+2023-12-04 15:13:18,610 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:101) | - Traveller1_firstname: Suo
+2023-12-04 15:13:18,674 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:103) | - Traveller1_lastname: Wang
+2023-12-04 15:13:18,750 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:105) | - Traveller1_nationality: Australia
+2023-12-04 15:13:18,948 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:109) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-04 15:13:19,083 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:111) | - Traveller1_passport_no: 19911995
+2023-12-04 15:13:19,301 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:118) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-04 15:13:19,594 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:127) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-09 14:45:22,480 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:49:05,543 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:49:05,585 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-09 14:49:45,457 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:49:45,506 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,518 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,531 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,546 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,559 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 32A
+2023-12-09 14:49:45,574 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,588 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:49:45,603 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,617 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Emirates - 77W
+2023-12-09 14:49:45,633 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Gulf Air Bahrain - 321
+2023-12-09 14:49:45,647 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,663 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,677 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,691 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,705 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,717 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,739 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,767 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,781 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,794 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,805 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,817 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,829 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,843 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,856 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Nas Air - 320
+2023-12-09 14:49:45,858 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Filling in personal information
+2023-12-09 14:51:07,155 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:51:07,196 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:51:07,209 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:51:07,222 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:51:07,234 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - Pakistan International Airlines - 320
+2023-12-09 14:51:07,246 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:61) | - SriLankan Airlines - 32A
+2023-12-09 14:52:48,719 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:52:48,767 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Pakistan International Airlines - 320
+2023-12-09 14:52:48,783 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Pakistan International Airlines - 320
+2023-12-09 14:52:48,798 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Pakistan International Airlines - 320
+2023-12-09 14:52:48,814 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - Pakistan International Airlines - 320
+2023-12-09 14:52:48,828 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:62) | - SriLankan Airlines - 32A
+2023-12-09 14:53:36,323 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:53:40,379 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:53:42,397 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:53:44,421 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:53:46,445 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:53:48,467 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - SriLankan Airlines - 32A
+2023-12-09 14:53:55,755 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Select Flight: SriLankan Airlines - 32A
+2023-12-09 14:53:55,755 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Entered flights booking page
+2023-12-09 14:53:55,755 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Filling in personal information
+2023-12-09 14:53:55,916 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:77) | - First Name: Wang
+2023-12-09 14:53:55,989 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Last Name: Xiao
+2023-12-09 14:53:56,089 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Email: xiaowang@gmail.com
+2023-12-09 14:53:56,164 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Phone: 61123456789
+2023-12-09 14:53:56,239 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Address: 95 xingfu rd, bx
+2023-12-09 14:53:57,172 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:90) | - Nationality: China
+2023-12-09 14:53:57,951 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Current Country: America
+2023-12-09 14:53:59,954 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:98) | - Filling in travellers information
+2023-12-09 14:54:02,009 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:102) | - Traveller1_title: Mr
+2023-12-09 14:54:02,087 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_firstname: Suo
+2023-12-09 14:54:02,150 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_lastname: Wang
+2023-12-09 14:54:02,216 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:108) | - Traveller1_nationality: Australia
+2023-12-09 14:54:02,401 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:112) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-09 14:54:02,497 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_passport_no: 19911995
+2023-12-09 14:54:02,683 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:121) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-09 14:54:02,920 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:130) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-09 14:58:07,812 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 14:58:09,858 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:58:10,878 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:58:11,896 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:58:12,918 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 14:58:13,942 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - SriLankan Airlines - 32A
+2023-12-09 14:58:21,054 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:69) | - Select Flight: SriLankan Airlines - 32A
+2023-12-09 14:58:21,054 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:70) | - Entered flights booking page
+2023-12-09 14:58:21,054 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:73) | - Filling in personal information
+2023-12-09 14:58:21,225 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:77) | - First Name: Wang
+2023-12-09 14:58:21,305 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Last Name: Xiao
+2023-12-09 14:58:21,401 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Email: xiaowang@gmail.com
+2023-12-09 14:58:21,475 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Phone: 61123456789
+2023-12-09 14:58:21,562 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Address: 95 xingfu rd, bx
+2023-12-09 14:58:22,490 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:90) | - Nationality: China
+2023-12-09 14:58:22,797 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:95) | - Current Country: America
+2023-12-09 14:58:24,800 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:98) | - Filling in travellers information
+2023-12-09 14:58:26,851 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:102) | - Traveller1_title: Mr
+2023-12-09 14:58:26,934 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_firstname: Suo
+2023-12-09 14:58:26,997 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_lastname: Wang
+2023-12-09 14:58:27,068 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:108) | - Traveller1_nationality: Australia
+2023-12-09 14:58:27,250 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:112) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-09 14:58:27,343 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_passport_no: 19911995
+2023-12-09 14:58:27,521 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:121) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-09 14:58:27,776 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:130) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-09 14:58:31,843 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:148) | - Payment_method: pay_stripe
+2023-12-09 15:03:53,820 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 15:03:55,896 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:03:56,915 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:03:57,933 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:03:58,950 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:03:59,970 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - SriLankan Airlines - 32A
+2023-12-09 15:04:07,331 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:71) | - Select Flight: SriLankan Airlines - 32A
+2023-12-09 15:04:07,331 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:72) | - Entered flights booking page
+2023-12-09 15:04:07,331 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Filling in personal information
+2023-12-09 15:04:07,517 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - First Name: Wang
+2023-12-09 15:04:07,596 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:81) | - Last Name: Xiao
+2023-12-09 15:04:07,691 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - Email: xiaowang@gmail.com
+2023-12-09 15:04:07,765 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Phone: 61123456789
+2023-12-09 15:04:07,843 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Address: 95 xingfu rd, bx
+2023-12-09 15:04:08,287 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:92) | - Nationality: China
+2023-12-09 15:04:08,556 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:97) | - Current Country: America
+2023-12-09 15:04:10,557 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:100) | - Filling in travellers information
+2023-12-09 15:04:12,611 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Traveller1_title: Mr
+2023-12-09 15:04:12,692 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:106) | - Traveller1_firstname: Suo
+2023-12-09 15:04:12,759 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:108) | - Traveller1_lastname: Wang
+2023-12-09 15:04:12,832 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:110) | - Traveller1_nationality: Australia
+2023-12-09 15:04:13,024 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-09 15:04:13,112 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:116) | - Traveller1_passport_no: 19911995
+2023-12-09 15:04:13,299 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:123) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-09 15:04:13,517 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:132) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-09 15:04:17,585 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:150) | - Payment_method: pay_stripe
+2023-12-09 15:06:33,421 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:42) | - Entered flights page for booking
+2023-12-09 15:06:35,472 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:06:36,498 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:06:37,520 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:06:38,543 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - Pakistan International Airlines - 320
+2023-12-09 15:06:39,565 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:64) | - SriLankan Airlines - 32A
+2023-12-09 15:06:49,868 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:75) | - Select Flight: SriLankan Airlines - 32A
+2023-12-09 15:06:49,868 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:76) | - Entered flights booking page
+2023-12-09 15:06:49,869 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:79) | - Filling in personal information
+2023-12-09 15:06:50,044 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:83) | - First Name: Wang
+2023-12-09 15:06:50,133 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:85) | - Last Name: Xiao
+2023-12-09 15:06:50,240 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:87) | - Email: xiaowang@gmail.com
+2023-12-09 15:06:50,325 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:89) | - Phone: 61123456789
+2023-12-09 15:06:50,397 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:91) | - Address: 95 xingfu rd, bx
+2023-12-09 15:06:50,943 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:96) | - Nationality: China
+2023-12-09 15:06:51,811 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:101) | - Current Country: America
+2023-12-09 15:06:53,811 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:104) | - Filling in travellers information
+2023-12-09 15:06:55,861 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:108) | - Traveller1_title: Mr
+2023-12-09 15:06:55,946 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:110) | - Traveller1_firstname: Suo
+2023-12-09 15:06:56,027 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:112) | - Traveller1_lastname: Wang
+2023-12-09 15:06:56,101 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:114) | - Traveller1_nationality: Australia
+2023-12-09 15:06:56,300 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:118) | - Traveller1_DOB: 09 Sep 05 1982
+2023-12-09 15:06:56,396 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:120) | - Traveller1_passport_no: 19911995
+2023-12-09 15:06:56,588 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:127) | - Traveller1_passport_issuance_date: 07 Jul 19 2016
+2023-12-09 15:06:56,842 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:136) | - Traveller1_passport_expiry_date: 07 Jul 18 2026
+2023-12-09 15:07:00,907 INFO [flights_booking_001] | test_flights_booking.py(test_flights_booking:154) | - Payment_method: pay_stripe
+2023-12-09 15:10:37,269 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:10:37,338 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-12-09 15:12:15,294 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:12:15,364 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-12-09 15:13:15,355 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:13:15,424 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-12-09 15:14:59,760 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:14:59,821 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-12-09 15:21:04,502 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:21:04,573 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:32) | - Flight Stops: Direct
+2023-12-09 15:23:32,605 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:23:32,684 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:24:40,965 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:24:41,048 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:28:03,347 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:28:03,429 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:28:08,401 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:28:08,449 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Pakistan International Airlines is selected
+2023-12-09 15:28:08,456 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:28:08,462 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:28:08,472 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:28:08,479 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:28:08,487 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:28:08,496 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:28:08,525 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:28:09,556 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:31:01,870 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:31:01,949 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:31:06,951 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:31:06,958 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:31:06,965 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:31:06,971 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:31:07,013 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:31:07,023 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:31:07,033 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:31:07,039 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:31:07,083 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:31:08,111 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:32:17,417 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:32:17,501 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:32:24,472 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:32:24,479 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:32:24,485 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:32:24,492 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:32:24,534 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:32:24,542 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:32:24,549 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:32:24,555 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:32:24,594 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:32:26,628 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:34:40,890 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:34:40,970 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:34:47,909 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:34:47,916 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:34:47,923 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:34:47,929 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Gulf Air Bahrain
+2023-12-09 15:34:47,936 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:34:47,943 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Zuliana de Aviacion
+2023-12-09 15:34:49,976 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:35:38,923 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:35:39,014 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:35:46,210 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:35:46,218 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:35:46,225 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:35:46,232 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:35:46,275 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:35:46,284 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:35:46,291 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:35:46,297 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:35:46,305 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:35:46,345 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:35:48,378 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:38:55,688 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:38:55,775 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:39:02,908 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:39:02,915 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:39:02,922 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:39:02,929 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:39:02,973 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:39:02,982 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:39:02,990 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:39:02,996 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:39:03,004 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:39:03,045 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:39:05,078 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:41:31,370 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:41:31,489 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:41:38,856 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:41:38,863 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:41:38,871 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:41:38,878 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:41:38,935 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:41:38,943 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:41:38,951 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:41:38,958 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:41:38,964 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:41:39,005 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:41:41,043 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:42:58,801 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:42:58,899 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:43:06,098 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:43:06,108 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:43:06,120 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:43:06,128 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:43:06,172 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:43:06,180 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:43:06,187 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:43:06,195 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:43:06,205 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:43:06,245 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:43:08,279 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:43:57,615 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:43:57,701 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:44:04,894 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:44:04,900 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:44:04,908 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:44:04,915 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:44:04,961 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:44:04,969 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:44:04,978 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:44:04,985 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:44:04,992 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:44:05,035 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:44:07,069 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:44:41,418 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:44:41,510 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:44:48,688 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:44:48,696 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:44:48,703 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:44:48,716 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:44:48,753 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:44:48,764 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:44:48,771 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:44:48,777 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:44:48,784 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:44:48,814 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:44:50,848 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:45:31,867 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:45:31,961 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:45:39,143 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:45:39,152 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:45:39,159 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:45:39,166 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:45:39,211 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:45:39,220 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:45:39,227 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:45:39,233 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:45:39,242 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:45:39,285 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:45:41,315 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist
+2023-12-09 15:46:17,407 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:24) | - Entered flights page for filter
+2023-12-09 15:46:17,496 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:40) | - Flight Stops: Stops 1
+2023-12-09 15:46:24,627 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Pakistan International Airlines
+2023-12-09 15:46:24,635 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - SriLankan Airlines
+2023-12-09 15:46:24,642 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Kuwait Airways
+2023-12-09 15:46:24,649 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Oman Air
+2023-12-09 15:46:24,691 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Oman Air is selected
+2023-12-09 15:46:24,699 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Emirates
+2023-12-09 15:46:24,705 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Nas Air
+2023-12-09 15:46:24,713 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Saudi Arabian Airlines
+2023-12-09 15:46:24,720 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:123) | - Qatar Airways
+2023-12-09 15:46:24,758 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:126) | - oneway airline: Qatar Airways is selected
+2023-12-09 15:46:26,793 INFO [flights_filter_001] | test_flights_filter.py(test_flights_filter:143) | - Return Airlines do not exist

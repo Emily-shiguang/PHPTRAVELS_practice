@@ -31,7 +31,7 @@ no_results_found = (By.CSS_SELECTOR, "img[alt='no results']")
 back_to_search = (By.PARTIAL_LINK_TEXT, "Back To Search")
 
 """FLIGHTS page configuration data for filter"""
-url_for_flights_fiter = "https://phptravels.site/flights/lhe/dxb/oneway/economy/09-12-2023/2/2/1"
+url_for_flights_fiter = "https://phptravels.site/flights/lhe/dxb/oneway/economy/19-12-2023/1/1/0"
 all_flights = (By.CSS_SELECTOR, "#all")
 direct = (By.CSS_SELECTOR, "#direct")
 stops1 = (By.CSS_SELECTOR, "input[value='.oneway_1']")
@@ -45,7 +45,8 @@ return_airlines = (By.CSS_SELECTOR, "label[for*='return']")
 
 
 """FLIGHTS page configuration data for booking"""
-url_for_flights_booking = "https://phptravels.site/flights/lhe/dxb/oneway/economy/07-12-2023/1/0/0"
+url_for_flights_booking = "https://phptravels.site/flights/lhe/dxb/oneway/economy/17-12-2023/1/0/0"
+flight_list = (By.CSS_SELECTOR, "li[class*='flight_list']")
 oneway_flights = (By.CSS_SELECTOR, "p[class='mb-1']")
 select_flight_btn = (By.CSS_SELECTOR, "button[class*='btn-dark']")
 

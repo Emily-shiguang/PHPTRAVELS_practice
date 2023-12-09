@@ -128,6 +128,9 @@ class FlightsPage:
     def open_url_for_flights_booking(self):
         self.driver.get(pages.url_for_flights_booking)
 
+    def get_flight_list(self):
+        return self.driver.find_elements(*pages.flight_list)
+
     def get_oneway_flights(self):
         return self.driver.find_elements(*pages.oneway_flights)
 
